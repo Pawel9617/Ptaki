@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtViewLogEdycjaTytuł"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nazwa_okna"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtViewLogEdycjaGatunek1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gatunek"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtViewLogEdycjaTytuł"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txtViewLogEdycjaGatunek2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewLogEdycjaTytuł"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/txtViewLogEdycjaGatunek1"
+        android:text="@string/debug"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtViewLogEdycjaData1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtViewLogEdycjaGatunek1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/txtViewLogEdycjaData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewLogEdycjaGatunek2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/txtViewLogEdycjaData1"
+        android:text="@string/debug"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtViewLogEdycjaMiejsce1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lokalizacja"
+        android:textSize="20dp"
+        android:layout_below="@+id/txtViewLogEdycjaData1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextLogEdycjaMiejsce2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewLogEdycjaData2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_toRightOf="@id/txtViewLogEdycjaMiejsce1"
+        android:text="@string/debug"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/usuń"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuń"
+        android:layout_below="@id/txtViewLogEdycjaMiejsce1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"/>
+
+</RelativeLayout>

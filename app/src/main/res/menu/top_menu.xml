@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Sortuj"
+        android:title="Sortuj"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/Rosnąco"
+                android:title="A-Z"/>
+            <item
+                android:id="@+id/Malejąco"
+                android:title="Z-A"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Filtruj"
+        android:title="Filtruj"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Wszystkie"
+                    android:title="Wszystkie"/>
+                <item
+                    android:id="@+id/Znalezione"
+                    android:title="Znalezione"/>
+                <item
+                    android:id="@+id/Nieznalezione"
+                    android:title="Nieznalezione"/>
+            </group>
+        </menu>
+    </item>
+</menu>

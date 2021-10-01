@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgView1A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/alczyk"/>
+
+        <ImageView
+            android:id="@+id/imgView1B"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/alka"/>
+
+        <ImageView
+            android:id="@+id/imgView2A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView1A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/baczek"/>
+
+        <ImageView
+            android:id="@+id/imgView2B"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView1B"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/bak"/>
+
+        <ImageView
+            android:id="@+id/imgView3A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView2A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/batalion"/>
+
+        <ImageView
+            android:id="@+id/imgView3B"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView2B"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/bazant"/>
+
+        <ImageView
+            android:id="@+id/imgView4A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView3A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/bekasik"/>
+
+        <ImageView
+            android:id="@+id/imgView4B"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView3B"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/bernikla_bialolica"/>
+
+        <ImageView
+            android:id="@+id/imgView5A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView4A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/bernikla_kanadyjska"/>
+
+        <ImageView
+            android:id="@+id/imgView5B"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView4B"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/bernikla_obrozna"/>
+
+        <ImageView
+            android:id="@+id/imgView6A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView5A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/bernikla_rdzawoszyja"/>
+
+        <ImageView
+            android:id="@+id/imgView6B"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView5B"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/bialorzytka"/>
+
+        <ImageView
+            android:id="@+id/imgView7A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView6A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/bialorzytka_plowa"/>
+
+        <ImageView
+            android:id="@+id/imgView7B"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView6B"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/bialorzytka_pstra"/>
+
+        <ImageView
+            android:id="@+id/imgView8A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView7A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/bialorzytka_pustynna"/>
+
+        <ImageView
+            android:id="@+id/imgView8B"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView7B"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="220dp"
+            app:srcCompat="@drawable/bialorzytka_rdzawa"/>
+
+        <ImageView
+            android:id="@+id/imgView9A"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imgView8A"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/bialorzytka_saharyjska"/>
+    </RelativeLayout>
+</ScrollView>

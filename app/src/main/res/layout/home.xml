@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Udało Ci się odnaleźć:"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtViewCiekawostkaTytuł"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/ciekawostka_tytuł" />
+
+    <TextView
+        android:id="@+id/txtViewCiekawostkaTreść"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewCiekawostkaTytuł"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/fact1" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtViewCiekawostkaTreść"
+        android:layout_marginLeft="20dp"
+        android:text="Reset"/>
+
+</RelativeLayout>

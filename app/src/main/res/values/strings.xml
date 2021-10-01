@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Ptaki</string>
+    <!-- Tytuły i opisy ptaków -->
+    <string name="alczyk_tytuł">Alczyk</string>
+    <string name="alczyk_opis">Gatunek ptaka z rodziny alk (Alcidae), jedyny przedstawiciel rodzaju Alle. Najmniejszy przedstawiciel rodziny alk zamieszkujący regiony nearktyczne i palearktyczne. Nie jest zagrożony wyginięciem.</string>
+    <string name="alka_tytuł">Alka</string>
+    <string name="alka_opis">Gatunek średniego ptaka morskiego z rodziny alk (Alcidae) i jednocześnie jej największy znany członek. Jedyny przedstawiciel rodzaju Alca. Wędrowny.</string>
+    <string name="baczek_tytuł">Bączek</string>
+    <string name="baczek_opis">Gatunek średniego ptaka brodzącego z rodziny czaplowatych (Ardeidae) zamieszkujący w zależności od podgatunku.</string>
+    <string name="bak_tytuł">Bąk</string>
+    <string name="bak_opis">Gatunek dużego wędrownego ptaka wodnego z rodziny czaplowatych (Ardeidae), zamieszkujący północną część Eurazji (podgatunek nominatywny) i Afrykę południową (B. s. capiensis). Zimuje na południu Eurazji i w Afryce. W Europie Zachodniej i Południowej gatunek osiadły. Przeloty w III–IV i IX–XI. W Polsce bardzo nielicznie lęgowy i nielicznie zimujący nad wodami śródlądowymi.</string>
+    <string name="batalion_tytuł">Batalion</string>
+    <string name="batalion_opis">Gatunek ptaka z rodziny alk (Alcidae), jedyny przedstawiciel rodzaju Alle. Najmniejszy przedstawiciel rodziny alk zamieszkujący regiony nearktyczne i palearktyczne. Nie jest zagrożony wyginięciem.</string>
+    <string name="bazant_tytuł">Bażant</string>
+    <string name="bazant_opis">Gatunek dużego ptaka z rodziny kurowatych. W stanie dzikim występuje w umiarkowanych obszarach Azji i na zachód po skrajnie południowo-wschodnią Europę w 30 podgatunkach. Introdukowany do wielu regionów na świecie, w tym do Europy Środkowej, do której sprowadzono go z Chin w średniowieczu. Nie jest zagrożony wyginięciem.</string>
+    <string name="bekasik_tytuł">Bekasik</string>
+    <string name="bekasik_opis">Gatunek średniej wielkości ptaka wędrownego z rodziny bekasowatych (Scolopacidae). Jedyny przedstawiciel rodzaju Lymnocryptes. Nie wyróżnia się podgatunków.</string>
+    <string name="bernikla_bialolica_tytuł">Bernikla białolica</string>
+    <string name="bernikla_bialolica_opis">Gatunek dużego ptaka wodnego z rodziny kaczkowatych (Anatidae), zamieszkujący Grenlandię, Svalbard, północną część Norwegii. Zimuje na wybrzeżach Morza Północnego i Zatoki Biskajskiej, a czasem nawet na Półwyspie Iberyjskim. Na wybrzeżach Bałtyku w Olandii i Gotlandii od lat 70. rośnie populacja lęgowa. W Polsce pojawia się stosunkowo rzadko na przelotach.</string>
+    <string name="bernikla_kanadyjska_tytuł">Bernikla kanadyjska</string>
+    <string name="bernikla_kanadyjska_opis">Gatunek dużego ptaka wodnego z rodziny kaczkowatych (Anatidae). Udomowiona w XVIII wieku, często hodowana w amerykańskich i brytyjskich parkach, ogrodach, ale bez znaczenia gospodarczego.</string>
+    <string name="bernikla_obrozna_tytuł">Bernikla obrożna</string>
+    <string name="bernikla_obrozna_opis">Gatunek dużego arktycznego ptaka wodnego z rodziny kaczkowatych (Anatidae).</string>
+    <string name="bernikla_rdzawoszyja_tytuł">Bernikla rdzawoszyja</string>
+    <string name="bernikla_rdzawoszyja_opis">Średniej wielkości wędrowny ptak wodny z rodziny kaczkowatych, zamieszkujący zachodnią Syberię. Zimuje na wybrzeżu Morza Czarnego i Kaspijskiego.</string>
+    <string name="bialorzytka_tytuł">Białorzytka</string>
+    <string name="bialorzytka_opis">Gatunek małego ptaka wędrownego z rodziny muchołówkowatych (Muscicapidae).</string>
+    <string name="bialorzytka_plowa_tytuł">Białorzytka płowa</string>
+    <string name="bialorzytka_plowa_opis"> Gatunek ptaka z rodziny muchołówkowatych. Wędrowne. Gniazdują w północno-wschodniej Grecji, we wschodnich Bałkanach, na Bliskim Wschodzie oraz na południowej i wschodniej Ukrainie i dalej na wschód po Zabajkale, środkową Mongolię i północno-centralne Chiny. Zimują na obszarze od zachodniej Afryki do południowej Azji. Bardzo rzadko można go spotkać w Europie Zachodniej. Do Polski zalatuje wyjątkowo. Pierwsze stwierdzenie miało miejsce w maju 1986 pod Jastarnią, drugie w 1997 nad Jeziorem Żywieckim nieopodal Bielsko-Białej. Po raz trzeci widziano ją we Wrocance pod Krosnem 2 maja 2016. Gatunek monotypowy. Długość ciała 16–17 cm, masa ciała 21–39 g. Białorzytki płowe są nieco większe od białorzytki zwyczajnej (O. oenanthe) i przypominają samice tego gatunku. Nie występuje wyraźny dymorfizm płciowy. Brew styka się w okolicy nasady dzioba. Wyróżnia się czarne skrzydełko. Białorzytki płowe gniazdują na suchych, otwartych i skąpo porośniętych obszarach jak półpustynie, stepy, obrzeża pustyń i uedy. Zimują na suchych nizinnych stepach, w podobnych do lęgowych siedliskach. W sezonie lęgowym często koegzystują z żyjącymi w norach gryzoniami, takimi jak chomiki i susły. Żywią się głównie owadami, jednak niekiedy zjadają małe kręgowce (jaszczurki i węże) oraz nasiona. Swoje gniazda zakładają w norach gryzoni, rzadziej w norach żołn; lokalne wahania liczebności mogą wynikać z niedostępności miejsc do gniazdowania. Na terenie Polski gatunek ten jest objęty ścisłą ochroną gatunkową.</string>
+    <string name="bialorzytka_pstra_tytuł">Białorzytka pstra</string>
+    <string name="bialorzytka_pstra_opis"> Gatunek ptaka z rodziny muchołówkowatych. Występuje od południowo-wschodniej Europy (północno-wschodnia Bułgaria, wschodnia Rumunia i południowa Mołdawia), z przerwami w zasięgu dalej na wschód po południowy Ural, Mongolię, Zabajkale, środkowy i zachodni Afganistan, północny Pakistan, północno-zachodnie Himalaje i północno-wschodnie Chiny. Zimuje w północno-wschodniej Afryce i w południowo-zachodniej części Półwyspu Arabskiego. Do Polski zalatuje wyjątkowo (5 stwierdzeń do 2017, ostatnie w 2011).</string>
+    <string name="bialorzytka_pustynna_tytuł">Białorzytka pustynna</string>
+    <string name="bialorzytka_pustynna_opis">Długość ciała wynosi 14–15 cm, masa ciała 15–34 g. Wielkością i sylwetką białorzytki pustynne przypominają białorzytki zwyczajne. Występuje dymorfizm płciowy w upierzeniu. U samca gardło i policzek czarne oraz czarny ogon i białe białe barkówki, które u stojącego ptaka oddzielają płowy wierzch ciała od czarnych skrzydeł. Kuper i pokrywy nadogonowe białe. U samicy brak czarnych elementów na głowie, ponadto jest mniej rozpoznawalna – cechą rozpoznawczą jest biały kuper i całkowicie czarny ogon. Białorzytki pustynne gniazdują na stepach, półpustyniach i obrzeżach pustyń z nielicznymi roślinami, nad brzegami rzek, w uedach, kamieniołomach i ruinach. Podczas zimowania przebywają na podobnych siedliskach, jak w trakcie lęgów. Żywią się głównie owadami, zjadają również niewielkie nasiona. Okres lęgowy w Maroku trwa od lutego do czerwca, od środka marca do końca maja w Algierii i Tunezji, od maja do lipca w Egipcie. Gniazdo to raczej nieporęczna konstrukcja, utworzona z trawy i korzonków. Wyściółkę stanowią delikatniejsze trawy, wełna, włosie lub pióra. Umiejscowione jest w zagłębieniu przy drogach, na brzegu rzeki, ścianie skalnej, ścianie, na moście lub innej budowli, pod kamieniem, krzewem lub stertą kamieni, między wystającymi korzeniami lub w starej norze gryzonia. Zniesienie liczy od 3 do 6 jaj.</string>
+    <string name="bialorzytka_rdzawa_tytuł">Białorzytka rdzawa</string>
+    <string name="bialorzytka_rdzawa_opis">Zasiedla południową Europę, północną Afrykę, a w Azji – Bliski Wschód aż po Iran, oraz południowo-zachodni Kazachstan. Zimuje na południe od Sahary – w Sahelu. Do Polski zalatuje wyjątkowo. Biotop to śródziemnomorskie obszary z kamienistym podłożem. Występuje w dwóch odmianach barwnych: jasnogardłej i czarnogardłej. Występuje wyraźny dymorfizm płciowy. Samice nie mają rysunku na głowie. Odmiana jasnogardła biała, z czarnymi nogami, skrzydłami oraz maską na głowie. Odmiana czarnogardła również, ale czarna barwa na głowie pokrywa także gardło. Ma białe brzegi ogona. Młode są jak samice, ale mają z wierzchu beżowe plamki i brązowe łuskowanie na piersi. Długość jej ciała to 14,5 cm, a rozpiętość skrzydeł wynosi 25–27 cm. Masa ciała 12–21 g. Śpiewa nagle wybuchającymi, sucho szczebioczącymi zwrotkami. Bardzo szybko lata. Gatunek w Polsce podlega ścisłej ochronie gatunkowej.</string>
+    <string name="bialorzytka_saharyjska_tytuł">Białorzytka saharyjska</string>
+    <string name="bialorzytka_saharyjska_opis">Gatunek małego ptaka z rodziny muchołówkowatych (Muscicapidae). Zamieszkuje kamieniste tereny pustynne od Sahary po Arabię Saudyjską. Incydentalnie zalatuje do Europy, w 2015 r. po raz pierwszy zaobserwowano ją w Polsce. Ptak nieco mniejszy od szpaka, osiąga długość 17–18 cm. Masa ciała 23–39 g. Ubarwienie czarne, na czubku głowy i w tylnej dolnej części ciała biały. Na terenie Polski gatunek ten jest objęty ścisłą ochroną gatunkową.</string>
+    <string name="bialozor_tytuł">Białozór</string>
+    <string name="bialozor_opis">To gatunek arktyczny osiadły lub częściowo wędrowny. Zasiedla arktyczną część Eurazji i Ameryki Północnej. Gnieździ się na Półwyspie Skandynawskim, Islandii, w północnej Finlandii, Rosji, na Alasce, w północnej Kanadzie i na Grenlandii. Do Polski zalatuje wyjątkowo (do 2003 roku stwierdzony 20 razy) z lęgowisk leżących na północy Europy. Za każdym razem stwierdzono pojedyncze osobniki. Miało to miejsce od sierpnia do listopada i w styczniu, marcu oraz pierwszej połowie kwietnia. Sporadycznie był spotykany w różnych częściach kraju, zarówno na Wybrzeżu, jak i w centrum czy pogórzu.</string>
+
+    <!-- Inne rzeczy na ekranie ptaków -->
+    <string name="hint">Notatki</string>
+    <string name="default_status">Nie złapano</string>
+    <string name="button_MamGO">Mam go!</string>
+
+    <!-- Ciekawostki na głównym ekranie -->
+    <string name="ciekawostka_tytuł">Czy wiesz że…?</string>
+    <string name="fact1">Uszy u sowy są rozmieszczone niesymetrycznie: jedno na wysokości czoła a drugie na wysokości nozdrzy.</string>
+    <string name="fact2">Dzięcioły śpią w dziuplach przyczepione do wewnętrznych śnian.</string>
+    <string name="fact3">Ptaki najłatwiej podejść gdy się odzywają.</string>
+    <string name="fact4">Zimorodki posiadają dwie plamki żółte w każdym oku.</string>
+    <string name="fact5">Pustułka widzi światło UV odbite od moczu gryzoni.</string>
+
+    <!-- Przyciski dolnego menu -->
+    <string name="menu1">Home</string>
+    <string name="menu2">Encyklopedia</string>
+    <string name="menu3">Galeria</string>
+    <string name="menu4">Historia</string>
+    <string name="menu5">Osiągnięcia</string>
+
+
+    <!-- Okienko edycji log -->
+    <string name="nazwa_okna">Okno edycji danych</string>
+    <string name="gatunek">Gatunek</string>
+    <string name="data">Data znalezienia</string>
+    <string name="lokalizacja">Miejsce znalezienia</string>
+    <string name="usuń">Usuń wpis</string>
+
+
+
+    <!-- Inne -->
+    <string name="debug">DEBUG</string>
+</resources>

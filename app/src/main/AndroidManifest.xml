@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ptaki">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Log_edycja"/>
+        <activity android:name=".Gatunek"/>
+        <activity android:name=".B.Bialorzytka_saharyjska"/>
+        <activity android:name=".B.Bialorzytka_rdzawa"/>
+        <activity android:name=".B.Bialorzytka_pustynna"/>
+        <activity android:name=".B.Bialorzytka_pstra"/>
+        <activity android:name=".B.Bialorzytka_plowa"/>
+        <activity android:name=".B.Bialorzytka" />
+        <activity android:name=".B.Bernikla_rdzawoszyja" />
+        <activity android:name=".B.Bernikla_obrozna" />
+        <activity android:name=".B.Bernikla_kanadyjska" />
+        <activity android:name=".B.Bernikla_bialolica" />
+        <activity android:name=".B.Bekasik" />
+        <activity android:name=".B.Bazant" />
+        <activity android:name=".B.Batalion" />
+        <activity android:name=".B.Bak" />
+        <activity android:name=".B.Baczek" />
+        <activity android:name=".A.Alka" />
+        <activity android:name=".A.Alczyk"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
