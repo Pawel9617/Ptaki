@@ -177,6 +177,1296 @@ public class Encyklopedia extends Fragment {
         złapany = sharedPreferences.getBoolean(BIAŁORZYTKA_SAHARYJSKA, false);
         if(złapany)
             listaGatunków.add("Białorzytka saharyjska");
+        złapany = sharedPreferences.getBoolean("BiałozórZłapany", false);
+        if(złapany)
+            listaGatunków.add("Białozór");
+        złapany = sharedPreferences.getBoolean("BiegusArktycznyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus arktyczny");
+        złapany = sharedPreferences.getBoolean("BiegusDługoskrzydłyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus długoskrzydły");
+        złapany = sharedPreferences.getBoolean("BiegusKarłowatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus karłowaty");
+        złapany = sharedPreferences.getBoolean("BiegusKrzywodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus krzywodzioby");
+        złapany = sharedPreferences.getBoolean("BiegusMalutkiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus malutki");
+        złapany = sharedPreferences.getBoolean("BiegusMałyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus mały");
+        złapany = sharedPreferences.getBoolean("BiegusMorskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus morski");
+        złapany = sharedPreferences.getBoolean("BiegusPłaskodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus płaskodzioby");
+        złapany = sharedPreferences.getBoolean("BiegusPłowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus płowy");
+        złapany = sharedPreferences.getBoolean("BiegusRdzawyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus rdzawy");
+        złapany = sharedPreferences.getBoolean("BiegusTundrowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus tundrowy");
+        złapany = sharedPreferences.getBoolean("BiegusWielkiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus wielki");
+        złapany = sharedPreferences.getBoolean("BiegusZmiennyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Biegus zmienny");
+        złapany = sharedPreferences.getBoolean("BielaczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Bielaczek");
+        złapany = sharedPreferences.getBoolean("BielikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Bielik");
+        złapany = sharedPreferences.getBoolean("BielikWschodniZłapany", false);
+        if(złapany)
+            listaGatunków.add("Bielik wschodni");
+        złapany = sharedPreferences.getBoolean("BirginiakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Birginiak");
+        złapany = sharedPreferences.getBoolean("BłotniakŁąkowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Błotniak łąkowy");
+        złapany = sharedPreferences.getBoolean("BłotniakStawowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Błotniak stawowy");
+        złapany = sharedPreferences.getBoolean("BłotniakStepowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Błotniak stepowy");
+        złapany = sharedPreferences.getBoolean("BłotniakZbożowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Błotniak zbożowy");
+        złapany = sharedPreferences.getBoolean("BocianBiałyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Bocian biały");
+        złapany = sharedPreferences.getBoolean("BocianCzarnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Bocian czarny");
+        złapany = sharedPreferences.getBoolean("BogatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Bogatka");
+        złapany = sharedPreferences.getBoolean("BrodziecPiegowatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brodziec piegowaty");
+        złapany = sharedPreferences.getBoolean("BrodziecPiskliwyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brodziec piskliwy");
+        złapany = sharedPreferences.getBoolean("BrodziecPlamistyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brodziec plamisty");
+        złapany = sharedPreferences.getBoolean("BrodziecPławnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brodziec pławny");
+        złapany = sharedPreferences.getBoolean("BrodziecSniadyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brodziec śniady");
+        złapany = sharedPreferences.getBoolean("BrodziecŻółtonogiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brodziec żółtonogi");
+        złapany = sharedPreferences.getBoolean("BrzęczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brzęczka");
+        złapany = sharedPreferences.getBoolean("BrzegówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Brzegówka");
+        złapany = sharedPreferences.getBoolean("BurzykBalearskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Burzyk balearski");
+        złapany = sharedPreferences.getBoolean("BurzykPółnocnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Burzyk północny");
+        złapany = sharedPreferences.getBoolean("BurzykSzaryZłapany", false);
+        if(złapany)
+            listaGatunków.add("Burzyk szary");
+        złapany = sharedPreferences.getBoolean("BurzykŻółtodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Burzyk żółtodzioby");
+        złapany = sharedPreferences.getBoolean("CierlikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Cierlik");
+        złapany = sharedPreferences.getBoolean("CierniówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Cierniówka");
+        złapany = sharedPreferences.getBoolean("CietrzewZłapany", false);
+        if(złapany)
+            listaGatunków.add("Cietrzew");
+        złapany = sharedPreferences.getBoolean("CyraneczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Cyraneczka");
+        złapany = sharedPreferences.getBoolean("CyraneczkaKarolińskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Cyraneczka karolińska");
+        złapany = sharedPreferences.getBoolean("CyrankaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Cyranka");
+        złapany = sharedPreferences.getBoolean("CyrankaModroskrzydłaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Cyranka modroskrzydła");
+        złapany = sharedPreferences.getBoolean("CzajkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czajka");
+        złapany = sharedPreferences.getBoolean("CzajkaStepowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czajka stepowa");
+        złapany = sharedPreferences.getBoolean("CzajkaTowarzyskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czajka towarzyska");
+        złapany = sharedPreferences.getBoolean("CzaplaBiałaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czapla biała");
+        złapany = sharedPreferences.getBoolean("CzaplaModronosaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czapla modronosa");
+        złapany = sharedPreferences.getBoolean("CzaplaNadobnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czapla nadobna");
+        złapany = sharedPreferences.getBoolean("CzaplaPurpurowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czapla purpurowa");
+        złapany = sharedPreferences.getBoolean("CzaplaSiwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czapla siwa");
+        złapany = sharedPreferences.getBoolean("CzaplaZłotawaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czapla złotawa");
+        złapany = sharedPreferences.getBoolean("CzarnogłówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czarnogłówka");
+        złapany = sharedPreferences.getBoolean("CzarnowronZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czarnowron");
+        złapany = sharedPreferences.getBoolean("CzeczotkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czeczotka");
+        złapany = sharedPreferences.getBoolean("CzeczotkaTundrowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czeczotka tundrowa");
+        złapany = sharedPreferences.getBoolean("CzernicaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czernica");
+        złapany = sharedPreferences.getBoolean("CzerniczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czerniczka");
+        złapany = sharedPreferences.getBoolean("CzubatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czubatka");
+        złapany = sharedPreferences.getBoolean("CzyżZłapany", false);
+        if(złapany)
+            listaGatunków.add("Czyż");
+        złapany = sharedPreferences.getBoolean("DerkaczZłapany", false);
+        if(złapany)
+            listaGatunków.add("Derkacz");
+        złapany = sharedPreferences.getBoolean("DropZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drop");
+        złapany = sharedPreferences.getBoolean("DrozdaczekCiemnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozdaczek ciemny");
+        złapany = sharedPreferences.getBoolean("DrozdCzarnogardłyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozd czarnogardły");
+        złapany = sharedPreferences.getBoolean("DrozdObrożnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozd obrożny");
+        złapany = sharedPreferences.getBoolean("DrozdOliwkowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozd oliwkowy");
+        złapany = sharedPreferences.getBoolean("DrozdońPstryZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozdoń pstry");
+        złapany = sharedPreferences.getBoolean("DrozdRdzawogardłyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozd rdzawogardły");
+        złapany = sharedPreferences.getBoolean("DrozdRdzawoskrzydłyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozd rdzawoskrzydły");
+        złapany = sharedPreferences.getBoolean("DrozdRdzawyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drozd rdzawy");
+        złapany = sharedPreferences.getBoolean("DroździkZłapany", false);
+        if(złapany)
+            listaGatunków.add("Droździk");
+        złapany = sharedPreferences.getBoolean("DrzemlikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Drzemlik");
+        złapany = sharedPreferences.getBoolean("DubeltZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dubelt");
+        złapany = sharedPreferences.getBoolean("DudekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dudek");
+        złapany = sharedPreferences.getBoolean("DymówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dymówka");
+        złapany = sharedPreferences.getBoolean("DzięciołBiałogrzbietyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł białogrzbiety");
+        złapany = sharedPreferences.getBoolean("DzięciołBiałoszyiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł białoszyi");
+        złapany = sharedPreferences.getBoolean("DzięciołCzarnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł czarny");
+        złapany = sharedPreferences.getBoolean("DzięciołDużyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł duży");
+        złapany = sharedPreferences.getBoolean("DzięciołekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięciołek");
+        złapany = sharedPreferences.getBoolean("DzięciołŚredniZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł średni");
+        złapany = sharedPreferences.getBoolean("DzięciołTrójpalczastyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł trójpalczasty");
+        złapany = sharedPreferences.getBoolean("DzięciołZielonosiwyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł zielonosiwy");
+        złapany = sharedPreferences.getBoolean("DzięciołZielonyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzięcioł zielony");
+        złapany = sharedPreferences.getBoolean("DzierlatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzierlatka");
+        złapany = sharedPreferences.getBoolean("DzierzbaCzarnoczelnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzierzba czarnoczelna");
+        złapany = sharedPreferences.getBoolean("DzierzbaPustynnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzierzba pustynna");
+        złapany = sharedPreferences.getBoolean("DzierzbaRdzawosternaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzierzba rdzawosterna");
+        złapany = sharedPreferences.getBoolean("DzierzbaRudogłowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzierzba rudogłowa");
+        złapany = sharedPreferences.getBoolean("DziwoniaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dziwonia");
+        złapany = sharedPreferences.getBoolean("DzwoniecZłapany", false);
+        if(złapany)
+            listaGatunków.add("Dzwoniec");
+        złapany = sharedPreferences.getBoolean("EdredonZłapany", false);
+        if(złapany)
+            listaGatunków.add("Edredon");
+        złapany = sharedPreferences.getBoolean("FlamingRóżowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Flaming różowy");
+        złapany = sharedPreferences.getBoolean("FulmarZłapany", false);
+        if(złapany)
+            listaGatunków.add("Fulmar");
+        złapany = sharedPreferences.getBoolean("GadożerZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gadożer");
+        złapany = sharedPreferences.getBoolean("GawronZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gawron");
+        złapany = sharedPreferences.getBoolean("GągołZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gągoł");
+        złapany = sharedPreferences.getBoolean("GajówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gajówka");
+        złapany = sharedPreferences.getBoolean("GąsiorekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gąsiorek");
+        złapany = sharedPreferences.getBoolean("GęgawaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gęgawa");
+        złapany = sharedPreferences.getBoolean("GęśBiałoczelnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gęś białoczelna");
+        złapany = sharedPreferences.getBoolean("GęsiówkaEgipskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gęsiówka egipska");
+        złapany = sharedPreferences.getBoolean("GęśKrótkodziobaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gęś krótkodzioba");
+        złapany = sharedPreferences.getBoolean("GęśMałaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gęś mała");
+        złapany = sharedPreferences.getBoolean("GęśZbożowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gęś zbożowa");
+        złapany = sharedPreferences.getBoolean("GilZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gil");
+        złapany = sharedPreferences.getBoolean("GłowienkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Głowienka");
+        złapany = sharedPreferences.getBoolean("GłuptakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Głuptak");
+        złapany = sharedPreferences.getBoolean("GłuszecZłapany", false);
+        if(złapany)
+            listaGatunków.add("Głuszec");
+        złapany = sharedPreferences.getBoolean("GłuszekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Głuszek");
+        złapany = sharedPreferences.getBoolean("GołąbMiejskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Gołąb miejski");
+        złapany = sharedPreferences.getBoolean("GórniczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Górniczek");
+        złapany = sharedPreferences.getBoolean("GrubodzióbZłapany", false);
+        if(złapany)
+            listaGatunków.add("Grubodziób");
+        złapany = sharedPreferences.getBoolean("GrzywaczZłapany", false);
+        if(złapany)
+            listaGatunków.add("Grzywacz");
+        złapany = sharedPreferences.getBoolean("HełmiatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Hełmiatka");
+        złapany = sharedPreferences.getBoolean("HubaraArabskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Hubara arabska");
+        złapany = sharedPreferences.getBoolean("IbisKasztanowatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ibis kasztanowaty");
+        złapany = sharedPreferences.getBoolean("JarząbekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jarząbek");
+        złapany = sharedPreferences.getBoolean("JarzębatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jarzębatka");
+        złapany = sharedPreferences.getBoolean("JaskółkaRudawaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jaskółka rudawa");
+        złapany = sharedPreferences.getBoolean("JastrząbZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jastrząb");
+        złapany = sharedPreferences.getBoolean("JemiołuszkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jemiołuszka");
+        złapany = sharedPreferences.getBoolean("JerZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jer");
+        złapany = sharedPreferences.getBoolean("JerzykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jerzyk");
+        złapany = sharedPreferences.getBoolean("JerzykAlpejskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jerzyk alpejski");
+        złapany = sharedPreferences.getBoolean("JerzykBladyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Jerzyk blady");
+        złapany = sharedPreferences.getBoolean("JunkoZłapany", false);
+        if(złapany)
+            listaGatunków.add("Junko");
+        złapany = sharedPreferences.getBoolean("KalandraCzarnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kalandra czarna");
+        złapany = sharedPreferences.getBoolean("KalandraSzaraZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kalandra szara");
+        złapany = sharedPreferences.getBoolean("KamieniuszkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kamieniuszka");
+        złapany = sharedPreferences.getBoolean("KamuszikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kamuszik");
+        złapany = sharedPreferences.getBoolean("KaniaCzarnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kania czarna");
+        złapany = sharedPreferences.getBoolean("KaniaRudaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kania ruda");
+        złapany = sharedPreferences.getBoolean("KapturkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kapturka");
+        złapany = sharedPreferences.getBoolean("KarliczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Karliczka");
+        złapany = sharedPreferences.getBoolean("KawkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kawka");
+        złapany = sharedPreferences.getBoolean("KazarkaRdzawaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kazarka rdzawa");
+        złapany = sharedPreferences.getBoolean("KląskawkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kląskawka");
+        złapany = sharedPreferences.getBoolean("KobczykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kobczyk");
+        złapany = sharedPreferences.getBoolean("KobuzZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kobuz");
+        złapany = sharedPreferences.getBoolean("KokoszkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kokoszka");
+        złapany = sharedPreferences.getBoolean("KopciuszekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kopciuszek");
+        złapany = sharedPreferences.getBoolean("KormoranZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kormoran");
+        złapany = sharedPreferences.getBoolean("KormoranCzubatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kormoran czubaty");
+        złapany = sharedPreferences.getBoolean("KormoranMałyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kormoran mały");
+        złapany = sharedPreferences.getBoolean("KosZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kos");
+        złapany = sharedPreferences.getBoolean("KowalikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kowalik");
+        złapany = sharedPreferences.getBoolean("KrakwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krakwa");
+        złapany = sharedPreferences.getBoolean("KraskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kraska");
+        złapany = sharedPreferences.getBoolean("KrętogłówZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krętogłów");
+        złapany = sharedPreferences.getBoolean("KrogulecZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krogulec");
+        złapany = sharedPreferences.getBoolean("KrogulecKrótkonogiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krogulec krótkonogi");
+        złapany = sharedPreferences.getBoolean("KropiatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kropiatka");
+        złapany = sharedPreferences.getBoolean("KrukZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kruk");
+        złapany = sharedPreferences.getBoolean("KrwawodzióbZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krwawodziób");
+        złapany = sharedPreferences.getBoolean("KrzyżodzióbModrzewiowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krzyżodziób modrzewiowy");
+        złapany = sharedPreferences.getBoolean("KrzyżodzióbSosnowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krzyżodziób sosnowy");
+        złapany = sharedPreferences.getBoolean("KrzyżodzióbŚwierkowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krzyżodziób świerkowy");
+        złapany = sharedPreferences.getBoolean("KrzyżówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Krzyżówka");
+        złapany = sharedPreferences.getBoolean("KszykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kszyk");
+        złapany = sharedPreferences.getBoolean("KukułkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kukułka");
+        złapany = sharedPreferences.getBoolean("KulczykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kulczyk");
+        złapany = sharedPreferences.getBoolean("KulikCienkodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kulik cienkodzioby");
+        złapany = sharedPreferences.getBoolean("KulikMniejszyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kulik mniejszy");
+        złapany = sharedPreferences.getBoolean("KulikWielkiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kulik wielki");
+        złapany = sharedPreferences.getBoolean("KulonZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kulon");
+        złapany = sharedPreferences.getBoolean("KurhannikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kurhannik");
+        złapany = sharedPreferences.getBoolean("KuropatwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kuropatwa");
+        złapany = sharedPreferences.getBoolean("KwiczołZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kwiczoł");
+        złapany = sharedPreferences.getBoolean("KwokaczZłapany", false);
+        if(złapany)
+            listaGatunków.add("Kwokacz");
+        złapany = sharedPreferences.getBoolean("LelekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Lelek");
+        złapany = sharedPreferences.getBoolean("LerkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Lerka");
+        złapany = sharedPreferences.getBoolean("LodowiecZłapany", false);
+        if(złapany)
+            listaGatunków.add("Lodowiec");
+        złapany = sharedPreferences.getBoolean("LodówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Lodówka");
+        złapany = sharedPreferences.getBoolean("ŁabędźCzarnodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Łabędź czarnodzioby");
+        złapany = sharedPreferences.getBoolean("ŁabędźKrzykliwyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Łabędź krzykliwy");
+        złapany = sharedPreferences.getBoolean("ŁabędźNiemyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Łabędź niemy");
+        złapany = sharedPreferences.getBoolean("ŁęczakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Łęczak");
+        złapany = sharedPreferences.getBoolean("ŁozówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Łozówka");
+        złapany = sharedPreferences.getBoolean("ŁuskowiecZłapany", false);
+        if(złapany)
+            listaGatunków.add("Łuskowiec");
+        złapany = sharedPreferences.getBoolean("ŁyskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Łyska");
+        złapany = sharedPreferences.getBoolean("MakolągwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Makolągwa");
+        złapany = sharedPreferences.getBoolean("MandarynkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mandarynka");
+        złapany = sharedPreferences.getBoolean("MarkaczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Markaczka");
+        złapany = sharedPreferences.getBoolean("MarkaczkaAmerykańskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Markaczka amerykańska");
+        złapany = sharedPreferences.getBoolean("MaskonurZłapany", false);
+        if(złapany)
+            listaGatunków.add("Maskonur");
+        złapany = sharedPreferences.getBoolean("MazurekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mazurek");
+        złapany = sharedPreferences.getBoolean("MewaBiałogłowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa białogłowa");
+        złapany = sharedPreferences.getBoolean("MewaBladaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa blada");
+        złapany = sharedPreferences.getBoolean("MewaCienkodziobaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa cienkodzioba");
+        złapany = sharedPreferences.getBoolean("MewaCzarnogłowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa czarnogłowa");
+        złapany = sharedPreferences.getBoolean("MewaDelawarskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa delawarska");
+        złapany = sharedPreferences.getBoolean("MewaKaraibskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa karaibska");
+        złapany = sharedPreferences.getBoolean("MewaMałaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa mała");
+        złapany = sharedPreferences.getBoolean("MewaModrodziobaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa modrodzioba");
+        złapany = sharedPreferences.getBoolean("MewaObrożnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa obrożna");
+        złapany = sharedPreferences.getBoolean("MewaPolarnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa polarna");
+        złapany = sharedPreferences.getBoolean("MewaRomańskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa romańska");
+        złapany = sharedPreferences.getBoolean("MewaSiodłataZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa siodłata");
+        złapany = sharedPreferences.getBoolean("MewaSiwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa siwa");
+        złapany = sharedPreferences.getBoolean("MewaSrebrzystaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa srebrzysta");
+        złapany = sharedPreferences.getBoolean("MewaTrójpalczastaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa trójpalczasta");
+        złapany = sharedPreferences.getBoolean("MewaŻółtonogaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mewa żółtonoga");
+        złapany = sharedPreferences.getBoolean("ModraczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Modraczek");
+        złapany = sharedPreferences.getBoolean("ModraszkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Modraszka");
+        złapany = sharedPreferences.getBoolean("MornelZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mornel");
+        złapany = sharedPreferences.getBoolean("MuchołówkaBiałoszyjaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Muchołówka białoszyja");
+        złapany = sharedPreferences.getBoolean("MuchłówkaMałaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Muchłówka mała");
+        złapany = sharedPreferences.getBoolean("MuchołówkaSzaraZłapany", false);
+        if(złapany)
+            listaGatunków.add("Muchołówka szara");
+        złapany = sharedPreferences.getBoolean("MuchołówkaŻałobnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Muchołówka żałobna");
+        złapany = sharedPreferences.getBoolean("MysikrólikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Mysikrólik");
+        złapany = sharedPreferences.getBoolean("MyszołówZłapany", false);
+        if(złapany)
+            listaGatunków.add("Myszołów");
+        złapany = sharedPreferences.getBoolean("MyszołówWłochatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Myszołów włochaty");
+        złapany = sharedPreferences.getBoolean("NagórnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nagórnik");
+        złapany = sharedPreferences.getBoolean("NawałnikBurzowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nawałnik burzowy");
+        złapany = sharedPreferences.getBoolean("NawałnikDużyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nawałnik duży");
+        złapany = sharedPreferences.getBoolean("NurBiałodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nur białodzioby");
+        złapany = sharedPreferences.getBoolean("NurCzarnoszyiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nur czarnoszyi");
+        złapany = sharedPreferences.getBoolean("NurnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nurnik");
+        złapany = sharedPreferences.getBoolean("NurogęśZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nurogęś");
+        złapany = sharedPreferences.getBoolean("NurRdzawoszyiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nur rdzawoszyi");
+        złapany = sharedPreferences.getBoolean("NurzykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nurzyk");
+        złapany = sharedPreferences.getBoolean("NurzykPolarnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Nurzyk polarny");
+        złapany = sharedPreferences.getBoolean("OceannikŻółtopłetwyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Oceannik żółtopłetwy");
+        złapany = sharedPreferences.getBoolean("OgorzałkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ogorzałka");
+        złapany = sharedPreferences.getBoolean("OgorzałkaMałaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ogorzałka mała");
+        złapany = sharedPreferences.getBoolean("OharZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ohar");
+        złapany = sharedPreferences.getBoolean("OknówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Oknówka");
+        złapany = sharedPreferences.getBoolean("OrlicaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orlica");
+        złapany = sharedPreferences.getBoolean("OrlikGrubodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orlik grubodzioby");
+        złapany = sharedPreferences.getBoolean("OrlikKrzykliwyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orlik krzykliwy");
+        złapany = sharedPreferences.getBoolean("OrłosępZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orłosęp");
+        złapany = sharedPreferences.getBoolean("OrtolanZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ortolan");
+        złapany = sharedPreferences.getBoolean("OrzechówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orzechówka");
+        złapany = sharedPreferences.getBoolean("OrzełCesarskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orzeł cesarski");
+        złapany = sharedPreferences.getBoolean("OrzełekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orzełek");
+        złapany = sharedPreferences.getBoolean("OrzełPrzedniZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orzeł przedni");
+        złapany = sharedPreferences.getBoolean("OrzełStepowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Orzeł stepowy");
+        złapany = sharedPreferences.getBoolean("OsetnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Osetnik");
+        złapany = sharedPreferences.getBoolean("OstrygojadZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ostrygojad");
+        złapany = sharedPreferences.getBoolean("PardwaMszarnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pardwa mszarna");
+        złapany = sharedPreferences.getBoolean("PasterzZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pasterz");
+        złapany = sharedPreferences.getBoolean("PaszkotZłapany", false);
+        if(złapany)
+            listaGatunków.add("Paszkot");
+        złapany = sharedPreferences.getBoolean("PelikanKędzierzawyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pelikan kędzierzawy");
+        złapany = sharedPreferences.getBoolean("PelikanRóżowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pelikan różowy");
+        złapany = sharedPreferences.getBoolean("PełzaczLeśnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pełzacz leśny");
+        złapany = sharedPreferences.getBoolean("PełzaczOgrodowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pełzacz ogrodowy");
+        złapany = sharedPreferences.getBoolean("PerkozDwuczubyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Perkoz dwuczuby");
+        złapany = sharedPreferences.getBoolean("PerkozekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Perkozek");
+        złapany = sharedPreferences.getBoolean("PerkozGrubodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Perkoz grubodzioby");
+        złapany = sharedPreferences.getBoolean("PerkozRdzawoszyiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Perkoz rdzawoszyi");
+        złapany = sharedPreferences.getBoolean("PerkozRogatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Perkoz rogaty");
+        złapany = sharedPreferences.getBoolean("PiaskowiecZłapany", false);
+        if(złapany)
+            listaGatunków.add("Piaskowiec");
+        złapany = sharedPreferences.getBoolean("PiecuszekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Piecuszek");
+        złapany = sharedPreferences.getBoolean("PiegżaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Piegża");
+        złapany = sharedPreferences.getBoolean("PierwiosnekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pierwiosnek");
+        złapany = sharedPreferences.getBoolean("PleszkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pleszka");
+        złapany = sharedPreferences.getBoolean("PliszkaGórskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pliszka górska");
+        złapany = sharedPreferences.getBoolean("PliszkaSiwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pliszka siwa");
+        złapany = sharedPreferences.getBoolean("PliszkaŻółtaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pliszka żółta");
+        złapany = sharedPreferences.getBoolean("PluszczZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pluszcz");
+        złapany = sharedPreferences.getBoolean("PłaskonosZłapany", false);
+        if(złapany)
+            listaGatunków.add("Płaskonos");
+        złapany = sharedPreferences.getBoolean("PłatkonógPłaskodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Płatkonóg płaskodzioby");
+        złapany = sharedPreferences.getBoolean("PłatkonógSzydłodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Płatkonóg szydłodzioby");
+        złapany = sharedPreferences.getBoolean("PłochaczHalnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Płochacz halny");
+        złapany = sharedPreferences.getBoolean("PłochaczSyberyjskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Płochacz syberyjski");
+        złapany = sharedPreferences.getBoolean("PłomykówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Płomykówka");
+        złapany = sharedPreferences.getBoolean("PodgorzałkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Podgorzałka");
+        złapany = sharedPreferences.getBoolean("PodróżniczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Podróżniczek");
+        złapany = sharedPreferences.getBoolean("PójdźkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pójdźka");
+        złapany = sharedPreferences.getBoolean("PokląskwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pokląskwa");
+        złapany = sharedPreferences.getBoolean("PokrzewkaAksamitnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pokrzewka aksamitna");
+        złapany = sharedPreferences.getBoolean("PokrzewkaWąsataZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pokrzewka wąsata");
+        złapany = sharedPreferences.getBoolean("PokrzywnicaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pokrzywnica");
+        złapany = sharedPreferences.getBoolean("PomurnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pomurnik");
+        złapany = sharedPreferences.getBoolean("PoświerkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Poświerka");
+        złapany = sharedPreferences.getBoolean("PotrzeszczZłapany", false);
+        if(złapany)
+            listaGatunków.add("Potrzeszcz");
+        złapany = sharedPreferences.getBoolean("PotrzosZłapany", false);
+        if(złapany)
+            listaGatunków.add("Potrzos");
+        złapany = sharedPreferences.getBoolean("PrzepiórkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Przepiórka");
+        złapany = sharedPreferences.getBoolean("PuchaczZłapany", false);
+        if(złapany)
+            listaGatunków.add("Puchacz");
+        złapany = sharedPreferences.getBoolean("PustułeczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pustułeczka");
+        złapany = sharedPreferences.getBoolean("PustułkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pustułka");
+        złapany = sharedPreferences.getBoolean("PustynnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Pustynnik");
+        złapany = sharedPreferences.getBoolean("PuszczykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Puszczyk");
+        złapany = sharedPreferences.getBoolean("PuszczykMszarnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Puszczyk mszarny");
+        złapany = sharedPreferences.getBoolean("PuszczykUralskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Puszczyk uralski");
+        złapany = sharedPreferences.getBoolean("RaniuszekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Raniuszek");
+        złapany = sharedPreferences.getBoolean("RarógZłapany", false);
+        if(złapany)
+            listaGatunków.add("Raróg");
+        złapany = sharedPreferences.getBoolean("RemizZłapany", false);
+        if(złapany)
+            listaGatunków.add("Remiz");
+        złapany = sharedPreferences.getBoolean("RokitniczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rokitniczka");
+        złapany = sharedPreferences.getBoolean("RożeniecZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rożeniec");
+        złapany = sharedPreferences.getBoolean("RudzikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rudzik");
+        złapany = sharedPreferences.getBoolean("RybaczekSrokatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybaczek srokaty");
+        złapany = sharedPreferences.getBoolean("RybitwaBiałoczelnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa białoczelna");
+        złapany = sharedPreferences.getBoolean("RybitwaBiałoskrzydłaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa białoskrzydła");
+        złapany = sharedPreferences.getBoolean("RybitwaBiałowąsaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa białowąsa");
+        złapany = sharedPreferences.getBoolean("RybitwaCzarnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa czarna");
+        złapany = sharedPreferences.getBoolean("RybitwaCzubataZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa czubata");
+        złapany = sharedPreferences.getBoolean("RybitwaKrótkodziobaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa krótkodzioba");
+        złapany = sharedPreferences.getBoolean("RybitwaPopielataZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa popielata");
+        złapany = sharedPreferences.getBoolean("RybitwaRóżowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa różowa");
+        złapany = sharedPreferences.getBoolean("RybitwaRzecznaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa rzeczna");
+        złapany = sharedPreferences.getBoolean("RybitwaWielkodziobaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybitwa wielkodzioba");
+        złapany = sharedPreferences.getBoolean("RybołówZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rybołów");
+        złapany = sharedPreferences.getBoolean("RycykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rycyk");
+        złapany = sharedPreferences.getBoolean("RzepołuchZłapany", false);
+        if(złapany)
+            listaGatunków.add("Rzepołuch");
+        złapany = sharedPreferences.getBoolean("SamotnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Samotnik");
+        złapany = sharedPreferences.getBoolean("SępKasztanowatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sęp kasztanowaty");
+        złapany = sharedPreferences.getBoolean("SępPłowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sęp płowy");
+        złapany = sharedPreferences.getBoolean("SierpówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sierpówka");
+        złapany = sharedPreferences.getBoolean("SieweczkaMongolskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sieweczka mongolska");
+        złapany = sharedPreferences.getBoolean("SieweczkaMorskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sieweczka morska");
+        złapany = sharedPreferences.getBoolean("SieweczkaObrożnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sieweczka obrożna");
+        złapany = sharedPreferences.getBoolean("SieweczkaPustynnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sieweczka pustynna");
+        złapany = sharedPreferences.getBoolean("SieweczkaRzecznaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sieweczka rzeczna");
+        złapany = sharedPreferences.getBoolean("SiewkaSzaraZłapany", false);
+        if(złapany)
+            listaGatunków.add("Siewka szara");
+        złapany = sharedPreferences.getBoolean("SiewkaZłotaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Siewka złota");
+        złapany = sharedPreferences.getBoolean("SiewkaZłotawaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Siewka złotawa");
+        złapany = sharedPreferences.getBoolean("SiewnicaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Siewnica");
+        złapany = sharedPreferences.getBoolean("SikoraLazurowaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sikora lazurowa");
+        złapany = sharedPreferences.getBoolean("SikoraUbogaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sikora uboga");
+        złapany = sharedPreferences.getBoolean("SiniakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Siniak");
+        złapany = sharedPreferences.getBoolean("SiwerniakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Siwerniak");
+        złapany = sharedPreferences.getBoolean("SkowrończykKrótkopalcowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Skowrończyk krótkopalcowy");
+        złapany = sharedPreferences.getBoolean("SkowronekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Skowronek");
+        złapany = sharedPreferences.getBoolean("SkowronekBiałoskrzydłyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Skowronek białoskrzydły");
+        złapany = sharedPreferences.getBoolean("SłonkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Słonka");
+        złapany = sharedPreferences.getBoolean("SłowikRdzawyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Słowik rdzawy");
+        złapany = sharedPreferences.getBoolean("SłowikSyberyjskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Słowik syberyjski");
+        złapany = sharedPreferences.getBoolean("SłowikSzaryZłapany", false);
+        if(złapany)
+            listaGatunków.add("Słowik szary");
+        złapany = sharedPreferences.getBoolean("SokółSkalnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sokół skalny");
+        złapany = sharedPreferences.getBoolean("SokółWędrownyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sokół wędrowny");
+        złapany = sharedPreferences.getBoolean("SosnówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sosnówka");
+        złapany = sharedPreferences.getBoolean("SowaJarzębataZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sowa jarzębata");
+        złapany = sharedPreferences.getBoolean("SowaŚnieżnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sowa śnieżna");
+        złapany = sharedPreferences.getBoolean("SójkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sójka");
+        złapany = sharedPreferences.getBoolean("SójkaSyberyjskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sójka syberyjska");
+        złapany = sharedPreferences.getBoolean("SóweczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sóweczka");
+        złapany = sharedPreferences.getBoolean("SrokaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sroka");
+        złapany = sharedPreferences.getBoolean("SrokoszZłapany", false);
+        if(złapany)
+            listaGatunków.add("Srokosz");
+        złapany = sharedPreferences.getBoolean("SterniczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sterniczka");
+        złapany = sharedPreferences.getBoolean("SterniczkaJamajskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Sterniczka jamajska");
+        złapany = sharedPreferences.getBoolean("StrepetZłapany", false);
+        if(złapany)
+            listaGatunków.add("Strepet");
+        złapany = sharedPreferences.getBoolean("StrumieniówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Strumieniówka");
+        złapany = sharedPreferences.getBoolean("StrzyżykZłapany", false);
+        if(złapany)
+            listaGatunków.add("Strzyżyk");
+        złapany = sharedPreferences.getBoolean("SyczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Syczek");
+        złapany = sharedPreferences.getBoolean("SzablodzióbZłapany", false);
+        if(złapany)
+            listaGatunków.add("Szablodziób");
+        złapany = sharedPreferences.getBoolean("SzczudłakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Szczudłak");
+        złapany = sharedPreferences.getBoolean("SzczygiełZłapany", false);
+        if(złapany)
+            listaGatunków.add("Szczygieł");
+        złapany = sharedPreferences.getBoolean("SzlacharZłapany", false);
+        if(złapany)
+            listaGatunków.add("Szlachar");
+        złapany = sharedPreferences.getBoolean("SzlamiecDługodziobyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Szlamiec długodzioby");
+        złapany = sharedPreferences.getBoolean("SzlamnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Szlamnik");
+        złapany = sharedPreferences.getBoolean("SzpakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Szpak");
+        złapany = sharedPreferences.getBoolean("ŚcierwnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ścierwnik");
+        złapany = sharedPreferences.getBoolean("ŚlepowronZłapany", false);
+        if(złapany)
+            listaGatunków.add("Ślepowron");
+        złapany = sharedPreferences.getBoolean("ŚmieszkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Śmieszka");
+        złapany = sharedPreferences.getBoolean("ŚniegułaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Śnieguła");
+        złapany = sharedPreferences.getBoolean("ŚnieżkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Śnieżka");
+        złapany = sharedPreferences.getBoolean("ŚpiewakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Śpiewak");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekDrzewnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świergotek drzewny");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekŁąkowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świergotek łąkowy");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekNadmorskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świergotek nadmorski");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekPolnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świergotek polny");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekRdzawogardłyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świergotek rdzawogardły");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekSzponiastyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świergotek szponiasty");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekTajgowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świergotek tajgowy");
+        złapany = sharedPreferences.getBoolean("ŚwierszczakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świerszczak");
+        złapany = sharedPreferences.getBoolean("ŚwierszczakMelodyjnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świerszczak melodyjny");
+        złapany = sharedPreferences.getBoolean("ŚwistunZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstun");
+        złapany = sharedPreferences.getBoolean("ŚwistunAmerykańskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstun amerykański");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaAłtańskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka ałtańska");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaBrunatnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka brunatna");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaGórskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka górska");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaGrubodziobaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka grubodzioba");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaIberyjskaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka iberyjska");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaLeśnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka leśna");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaPółnocnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka północna");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaZłotawaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka złotawa");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaŻółtawaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Świstunka żółtawa");
+        złapany = sharedPreferences.getBoolean("TamaryszkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Tamaryszka");
+        złapany = sharedPreferences.getBoolean("TerekiaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Terekia");
+        złapany = sharedPreferences.getBoolean("TrzciniakZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trzciniak");
+        złapany = sharedPreferences.getBoolean("TrzcinniczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trzcinniczek");
+        złapany = sharedPreferences.getBoolean("TrzcinniczekKaspijskiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trzcinniczek kaspijski");
+        złapany = sharedPreferences.getBoolean("TrzmielojadZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trzmielojad");
+        złapany = sharedPreferences.getBoolean("TrznadelZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trznadel");
+        złapany = sharedPreferences.getBoolean("TrznadelBiałogłowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trznadel białogłowy");
+        złapany = sharedPreferences.getBoolean("TrznadelCzarnogłowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trznadel czarnogłowy");
+        złapany = sharedPreferences.getBoolean("TrznadelCzubatyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trznadel czubaty");
+        złapany = sharedPreferences.getBoolean("TrznadelekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trznadelek");
+        złapany = sharedPreferences.getBoolean("TrznadelZłotawyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trznadel złotawy");
+        złapany = sharedPreferences.getBoolean("TrznadelZłotobrewyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Trznadel złotobrewy");
+        złapany = sharedPreferences.getBoolean("TurkanZłapany", false);
+        if(złapany)
+            listaGatunków.add("Turkan");
+        złapany = sharedPreferences.getBoolean("TurkawkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Turkawka");
+        złapany = sharedPreferences.getBoolean("TurkawkaWschodniaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Turkawka wschodnia");
+        złapany = sharedPreferences.getBoolean("UhlaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Uhla");
+        złapany = sharedPreferences.getBoolean("UhlaGarbonosaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Uhla garbonosa");
+        złapany = sharedPreferences.getBoolean("UszatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Uszatka");
+        złapany = sharedPreferences.getBoolean("UszatkaBłotnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Uszatka błotna");
+        złapany = sharedPreferences.getBoolean("WarzęchaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Warzęcha");
+        złapany = sharedPreferences.getBoolean("WąsatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wąsatka");
+        złapany = sharedPreferences.getBoolean("WieszczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wieszczek");
+        złapany = sharedPreferences.getBoolean("WilgaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wilga");
+        złapany = sharedPreferences.getBoolean("WireonekCzerwonookiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wireonek czerwonooki");
+        złapany = sharedPreferences.getBoolean("WłochatkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Włochatka");
+        złapany = sharedPreferences.getBoolean("WodniczkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wodniczka");
+        złapany = sharedPreferences.getBoolean("WodnikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wodnik");
+        złapany = sharedPreferences.getBoolean("WójcikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wójcik");
+        złapany = sharedPreferences.getBoolean("WróbelZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wróbel");
+        złapany = sharedPreferences.getBoolean("WróbelSkalnyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wróbel skalny");
+        złapany = sharedPreferences.getBoolean("WronaSiwaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wrona siwa");
+        złapany = sharedPreferences.getBoolean("WydrzykDługosternyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wydrzyk długosterny");
+        złapany = sharedPreferences.getBoolean("WydrzykOstrosternyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wydrzyk ostrosterny");
+        złapany = sharedPreferences.getBoolean("WydrzykTęposternyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wydrzyk tęposterny");
+        złapany = sharedPreferences.getBoolean("WydrzykWielkiZłapany", false);
+        if(złapany)
+            listaGatunków.add("Wydrzyk wielki");
+        złapany = sharedPreferences.getBoolean("ZaganiaczZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zaganiacz");
+        złapany = sharedPreferences.getBoolean("ZaganiaczMałyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zaganiacz mały");
+        złapany = sharedPreferences.getBoolean("ZaganiaczSzczebiotliwyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zaganiacz szczebiotliwy");
+        złapany = sharedPreferences.getBoolean("ZaroślówkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zaroślówka");
+        złapany = sharedPreferences.getBoolean("ZausznikZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zausznik");
+        złapany = sharedPreferences.getBoolean("ZiębaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zięba");
+        złapany = sharedPreferences.getBoolean("ZielonkaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zielonka");
+        złapany = sharedPreferences.getBoolean("ZimorodekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zimorodek");
+        złapany = sharedPreferences.getBoolean("ZniczekZłapany", false);
+        if(złapany)
+            listaGatunków.add("Zniczek");
+        złapany = sharedPreferences.getBoolean("ŻołnaZłapany", false);
+        if(złapany)
+            listaGatunków.add("Żołna");
+        złapany = sharedPreferences.getBoolean("ŻurawZłapany", false);
+        if(złapany)
+            listaGatunków.add("Żuraw");
+        złapany = sharedPreferences.getBoolean("ŻurawStepowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Żuraw stepowy");
+        złapany = sharedPreferences.getBoolean("ŻwirowiecŁąkowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Żwirowiec łąkowy");
+        złapany = sharedPreferences.getBoolean("ŻwirowiecStepowyZłapany", false);
+        if(złapany)
+            listaGatunków.add("Żwirowiec stepowy");
     }
 
     public void filtrujNieznalezione(){
@@ -234,6 +1524,1296 @@ public class Encyklopedia extends Fragment {
         złapany = sharedPreferences.getBoolean(BIAŁORZYTKA_SAHARYJSKA, false);
         if(!złapany)
             listaGatunków.add("Białorzytka saharyjska");
+        złapany = sharedPreferences.getBoolean("BiałozórZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Białozór");
+        złapany = sharedPreferences.getBoolean("BiegusArktycznyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus arktyczny");
+        złapany = sharedPreferences.getBoolean("BiegusDługoskrzydłyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus długoskrzydły");
+        złapany = sharedPreferences.getBoolean("BiegusKarłowatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus karłowaty");
+        złapany = sharedPreferences.getBoolean("BiegusKrzywodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus krzywodzioby");
+        złapany = sharedPreferences.getBoolean("BiegusMalutkiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus malutki");
+        złapany = sharedPreferences.getBoolean("BiegusMałyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus mały");
+        złapany = sharedPreferences.getBoolean("BiegusMorskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus morski");
+        złapany = sharedPreferences.getBoolean("BiegusPłaskodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus płaskodzioby");
+        złapany = sharedPreferences.getBoolean("BiegusPłowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus płowy");
+        złapany = sharedPreferences.getBoolean("BiegusRdzawyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus rdzawy");
+        złapany = sharedPreferences.getBoolean("BiegusTundrowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus tundrowy");
+        złapany = sharedPreferences.getBoolean("BiegusWielkiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus wielki");
+        złapany = sharedPreferences.getBoolean("BiegusZmiennyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Biegus zmienny");
+        złapany = sharedPreferences.getBoolean("BielaczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Bielaczek");
+        złapany = sharedPreferences.getBoolean("BielikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Bielik");
+        złapany = sharedPreferences.getBoolean("BielikWschodniZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Bielik wschodni");
+        złapany = sharedPreferences.getBoolean("BirginiakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Birginiak");
+        złapany = sharedPreferences.getBoolean("BłotniakŁąkowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Błotniak łąkowy");
+        złapany = sharedPreferences.getBoolean("BłotniakStawowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Błotniak stawowy");
+        złapany = sharedPreferences.getBoolean("BłotniakStepowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Błotniak stepowy");
+        złapany = sharedPreferences.getBoolean("BłotniakZbożowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Błotniak zbożowy");
+        złapany = sharedPreferences.getBoolean("BocianBiałyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Bocian biały");
+        złapany = sharedPreferences.getBoolean("BocianCzarnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Bocian czarny");
+        złapany = sharedPreferences.getBoolean("BogatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Bogatka");
+        złapany = sharedPreferences.getBoolean("BrodziecPiegowatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brodziec piegowaty");
+        złapany = sharedPreferences.getBoolean("BrodziecPiskliwyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brodziec piskliwy");
+        złapany = sharedPreferences.getBoolean("BrodziecPlamistyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brodziec plamisty");
+        złapany = sharedPreferences.getBoolean("BrodziecPławnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brodziec pławny");
+        złapany = sharedPreferences.getBoolean("BrodziecSniadyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brodziec śniady");
+        złapany = sharedPreferences.getBoolean("BrodziecŻółtonogiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brodziec żółtonogi");
+        złapany = sharedPreferences.getBoolean("BrzęczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brzęczka");
+        złapany = sharedPreferences.getBoolean("BrzegówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Brzegówka");
+        złapany = sharedPreferences.getBoolean("BurzykBalearskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Burzyk balearski");
+        złapany = sharedPreferences.getBoolean("BurzykPółnocnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Burzyk północny");
+        złapany = sharedPreferences.getBoolean("BurzykSzaryZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Burzyk szary");
+        złapany = sharedPreferences.getBoolean("BurzykŻółtodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Burzyk żółtodzioby");
+        złapany = sharedPreferences.getBoolean("CierlikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Cierlik");
+        złapany = sharedPreferences.getBoolean("CierniówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Cierniówka");
+        złapany = sharedPreferences.getBoolean("CietrzewZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Cietrzew");
+        złapany = sharedPreferences.getBoolean("CyraneczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Cyraneczka");
+        złapany = sharedPreferences.getBoolean("CyraneczkaKarolińskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Cyraneczka karolińska");
+        złapany = sharedPreferences.getBoolean("CyrankaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Cyranka");
+        złapany = sharedPreferences.getBoolean("CyrankaModroskrzydłaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Cyranka modroskrzydła");
+        złapany = sharedPreferences.getBoolean("CzajkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czajka");
+        złapany = sharedPreferences.getBoolean("CzajkaStepowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czajka stepowa");
+        złapany = sharedPreferences.getBoolean("CzajkaTowarzyskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czajka towarzyska");
+        złapany = sharedPreferences.getBoolean("CzaplaBiałaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czapla biała");
+        złapany = sharedPreferences.getBoolean("CzaplaModronosaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czapla modronosa");
+        złapany = sharedPreferences.getBoolean("CzaplaNadobnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czapla nadobna");
+        złapany = sharedPreferences.getBoolean("CzaplaPurpurowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czapla purpurowa");
+        złapany = sharedPreferences.getBoolean("CzaplaSiwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czapla siwa");
+        złapany = sharedPreferences.getBoolean("CzaplaZłotawaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czapla złotawa");
+        złapany = sharedPreferences.getBoolean("CzarnogłówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czarnogłówka");
+        złapany = sharedPreferences.getBoolean("CzarnowronZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czarnowron");
+        złapany = sharedPreferences.getBoolean("CzeczotkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czeczotka");
+        złapany = sharedPreferences.getBoolean("CzeczotkaTundrowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czeczotka tundrowa");
+        złapany = sharedPreferences.getBoolean("CzernicaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czernica");
+        złapany = sharedPreferences.getBoolean("CzerniczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czerniczka");
+        złapany = sharedPreferences.getBoolean("CzubatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czubatka");
+        złapany = sharedPreferences.getBoolean("CzyżZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Czyż");
+        złapany = sharedPreferences.getBoolean("DerkaczZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Derkacz");
+        złapany = sharedPreferences.getBoolean("DropZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drop");
+        złapany = sharedPreferences.getBoolean("DrozdaczekCiemnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozdaczek ciemny");
+        złapany = sharedPreferences.getBoolean("DrozdCzarnogardłyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozd czarnogardły");
+        złapany = sharedPreferences.getBoolean("DrozdObrożnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozd obrożny");
+        złapany = sharedPreferences.getBoolean("DrozdOliwkowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozd oliwkowy");
+        złapany = sharedPreferences.getBoolean("DrozdońPstryZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozdoń pstry");
+        złapany = sharedPreferences.getBoolean("DrozdRdzawogardłyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozd rdzawogardły");
+        złapany = sharedPreferences.getBoolean("DrozdRdzawoskrzydłyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozd rdzawoskrzydły");
+        złapany = sharedPreferences.getBoolean("DrozdRdzawyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drozd rdzawy");
+        złapany = sharedPreferences.getBoolean("DroździkZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Droździk");
+        złapany = sharedPreferences.getBoolean("DrzemlikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Drzemlik");
+        złapany = sharedPreferences.getBoolean("DubeltZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dubelt");
+        złapany = sharedPreferences.getBoolean("DudekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dudek");
+        złapany = sharedPreferences.getBoolean("DymówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dymówka");
+        złapany = sharedPreferences.getBoolean("DzięciołBiałogrzbietyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł białogrzbiety");
+        złapany = sharedPreferences.getBoolean("DzięciołBiałoszyiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł białoszyi");
+        złapany = sharedPreferences.getBoolean("DzięciołCzarnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł czarny");
+        złapany = sharedPreferences.getBoolean("DzięciołDużyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł duży");
+        złapany = sharedPreferences.getBoolean("DzięciołekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięciołek");
+        złapany = sharedPreferences.getBoolean("DzięciołŚredniZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł średni");
+        złapany = sharedPreferences.getBoolean("DzięciołTrójpalczastyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł trójpalczasty");
+        złapany = sharedPreferences.getBoolean("DzięciołZielonosiwyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł zielonosiwy");
+        złapany = sharedPreferences.getBoolean("DzięciołZielonyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzięcioł zielony");
+        złapany = sharedPreferences.getBoolean("DzierlatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzierlatka");
+        złapany = sharedPreferences.getBoolean("DzierzbaCzarnoczelnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzierzba czarnoczelna");
+        złapany = sharedPreferences.getBoolean("DzierzbaPustynnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzierzba pustynna");
+        złapany = sharedPreferences.getBoolean("DzierzbaRdzawosternaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzierzba rdzawosterna");
+        złapany = sharedPreferences.getBoolean("DzierzbaRudogłowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzierzba rudogłowa");
+        złapany = sharedPreferences.getBoolean("DziwoniaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dziwonia");
+        złapany = sharedPreferences.getBoolean("DzwoniecZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Dzwoniec");
+        złapany = sharedPreferences.getBoolean("EdredonZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Edredon");
+        złapany = sharedPreferences.getBoolean("FlamingRóżowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Flaming różowy");
+        złapany = sharedPreferences.getBoolean("FulmarZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Fulmar");
+        złapany = sharedPreferences.getBoolean("GadożerZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gadożer");
+        złapany = sharedPreferences.getBoolean("GawronZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gawron");
+        złapany = sharedPreferences.getBoolean("GągołZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gągoł");
+        złapany = sharedPreferences.getBoolean("GajówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gajówka");
+        złapany = sharedPreferences.getBoolean("GąsiorekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gąsiorek");
+        złapany = sharedPreferences.getBoolean("GęgawaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gęgawa");
+        złapany = sharedPreferences.getBoolean("GęśBiałoczelnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gęś białoczelna");
+        złapany = sharedPreferences.getBoolean("GęsiówkaEgipskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gęsiówka egipska");
+        złapany = sharedPreferences.getBoolean("GęśKrótkodziobaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gęś krótkodzioba");
+        złapany = sharedPreferences.getBoolean("GęśMałaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gęś mała");
+        złapany = sharedPreferences.getBoolean("GęśZbożowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gęś zbożowa");
+        złapany = sharedPreferences.getBoolean("GilZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gil");
+        złapany = sharedPreferences.getBoolean("GłowienkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Głowienka");
+        złapany = sharedPreferences.getBoolean("GłuptakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Głuptak");
+        złapany = sharedPreferences.getBoolean("GłuszecZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Głuszec");
+        złapany = sharedPreferences.getBoolean("GłuszekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Głuszek");
+        złapany = sharedPreferences.getBoolean("GołąbMiejskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Gołąb miejski");
+        złapany = sharedPreferences.getBoolean("GórniczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Górniczek");
+        złapany = sharedPreferences.getBoolean("GrubodzióbZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Grubodziób");
+        złapany = sharedPreferences.getBoolean("GrzywaczZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Grzywacz");
+        złapany = sharedPreferences.getBoolean("HełmiatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Hełmiatka");
+        złapany = sharedPreferences.getBoolean("HubaraArabskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Hubara arabska");
+        złapany = sharedPreferences.getBoolean("IbisKasztanowatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ibis kasztanowaty");
+        złapany = sharedPreferences.getBoolean("JarząbekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jarząbek");
+        złapany = sharedPreferences.getBoolean("JarzębatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jarzębatka");
+        złapany = sharedPreferences.getBoolean("JaskółkaRudawaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jaskółka rudawa");
+        złapany = sharedPreferences.getBoolean("JastrząbZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jastrząb");
+        złapany = sharedPreferences.getBoolean("JemiołuszkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jemiołuszka");
+        złapany = sharedPreferences.getBoolean("JerZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jer");
+        złapany = sharedPreferences.getBoolean("JerzykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jerzyk");
+        złapany = sharedPreferences.getBoolean("JerzykAlpejskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jerzyk alpejski");
+        złapany = sharedPreferences.getBoolean("JerzykBladyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Jerzyk blady");
+        złapany = sharedPreferences.getBoolean("JunkoZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Junko");
+        złapany = sharedPreferences.getBoolean("KalandraCzarnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kalandra czarna");
+        złapany = sharedPreferences.getBoolean("KalandraSzaraZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kalandra szara");
+        złapany = sharedPreferences.getBoolean("KamieniuszkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kamieniuszka");
+        złapany = sharedPreferences.getBoolean("KamuszikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kamuszik");
+        złapany = sharedPreferences.getBoolean("KaniaCzarnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kania czarna");
+        złapany = sharedPreferences.getBoolean("KaniaRudaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kania ruda");
+        złapany = sharedPreferences.getBoolean("KapturkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kapturka");
+        złapany = sharedPreferences.getBoolean("KarliczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Karliczka");
+        złapany = sharedPreferences.getBoolean("KawkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kawka");
+        złapany = sharedPreferences.getBoolean("KazarkaRdzawaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kazarka rdzawa");
+        złapany = sharedPreferences.getBoolean("KląskawkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kląskawka");
+        złapany = sharedPreferences.getBoolean("KobczykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kobczyk");
+        złapany = sharedPreferences.getBoolean("KobuzZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kobuz");
+        złapany = sharedPreferences.getBoolean("KokoszkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kokoszka");
+        złapany = sharedPreferences.getBoolean("KopciuszekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kopciuszek");
+        złapany = sharedPreferences.getBoolean("KormoranZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kormoran");
+        złapany = sharedPreferences.getBoolean("KormoranCzubatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kormoran czubaty");
+        złapany = sharedPreferences.getBoolean("KormoranMałyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kormoran mały");
+        złapany = sharedPreferences.getBoolean("KosZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kos");
+        złapany = sharedPreferences.getBoolean("KowalikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kowalik");
+        złapany = sharedPreferences.getBoolean("KrakwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krakwa");
+        złapany = sharedPreferences.getBoolean("KraskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kraska");
+        złapany = sharedPreferences.getBoolean("KrętogłówZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krętogłów");
+        złapany = sharedPreferences.getBoolean("KrogulecZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krogulec");
+        złapany = sharedPreferences.getBoolean("KrogulecKrótkonogiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krogulec krótkonogi");
+        złapany = sharedPreferences.getBoolean("KropiatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kropiatka");
+        złapany = sharedPreferences.getBoolean("KrukZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kruk");
+        złapany = sharedPreferences.getBoolean("KrwawodzióbZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krwawodziób");
+        złapany = sharedPreferences.getBoolean("KrzyżodzióbModrzewiowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krzyżodziób modrzewiowy");
+        złapany = sharedPreferences.getBoolean("KrzyżodzióbSosnowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krzyżodziób sosnowy");
+        złapany = sharedPreferences.getBoolean("KrzyżodzióbŚwierkowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krzyżodziób świerkowy");
+        złapany = sharedPreferences.getBoolean("KrzyżówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Krzyżówka");
+        złapany = sharedPreferences.getBoolean("KszykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kszyk");
+        złapany = sharedPreferences.getBoolean("KukułkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kukułka");
+        złapany = sharedPreferences.getBoolean("KulczykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kulczyk");
+        złapany = sharedPreferences.getBoolean("KulikCienkodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kulik cienkodzioby");
+        złapany = sharedPreferences.getBoolean("KulikMniejszyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kulik mniejszy");
+        złapany = sharedPreferences.getBoolean("KulikWielkiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kulik wielki");
+        złapany = sharedPreferences.getBoolean("KulonZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kulon");
+        złapany = sharedPreferences.getBoolean("KurhannikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kurhannik");
+        złapany = sharedPreferences.getBoolean("KuropatwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kuropatwa");
+        złapany = sharedPreferences.getBoolean("KwiczołZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kwiczoł");
+        złapany = sharedPreferences.getBoolean("KwokaczZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Kwokacz");
+        złapany = sharedPreferences.getBoolean("LelekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Lelek");
+        złapany = sharedPreferences.getBoolean("LerkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Lerka");
+        złapany = sharedPreferences.getBoolean("LodowiecZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Lodowiec");
+        złapany = sharedPreferences.getBoolean("LodówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Lodówka");
+        złapany = sharedPreferences.getBoolean("ŁabędźCzarnodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Łabędź czarnodzioby");
+        złapany = sharedPreferences.getBoolean("ŁabędźKrzykliwyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Łabędź krzykliwy");
+        złapany = sharedPreferences.getBoolean("ŁabędźNiemyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Łabędź niemy");
+        złapany = sharedPreferences.getBoolean("ŁęczakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Łęczak");
+        złapany = sharedPreferences.getBoolean("ŁozówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Łozówka");
+        złapany = sharedPreferences.getBoolean("ŁuskowiecZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Łuskowiec");
+        złapany = sharedPreferences.getBoolean("ŁyskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Łyska");
+        złapany = sharedPreferences.getBoolean("MakolągwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Makolągwa");
+        złapany = sharedPreferences.getBoolean("MandarynkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mandarynka");
+        złapany = sharedPreferences.getBoolean("MarkaczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Markaczka");
+        złapany = sharedPreferences.getBoolean("MarkaczkaAmerykańskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Markaczka amerykańska");
+        złapany = sharedPreferences.getBoolean("MaskonurZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Maskonur");
+        złapany = sharedPreferences.getBoolean("MazurekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mazurek");
+        złapany = sharedPreferences.getBoolean("MewaBiałogłowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa białogłowa");
+        złapany = sharedPreferences.getBoolean("MewaBladaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa blada");
+        złapany = sharedPreferences.getBoolean("MewaCienkodziobaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa cienkodzioba");
+        złapany = sharedPreferences.getBoolean("MewaCzarnogłowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa czarnogłowa");
+        złapany = sharedPreferences.getBoolean("MewaDelawarskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa delawarska");
+        złapany = sharedPreferences.getBoolean("MewaKaraibskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa karaibska");
+        złapany = sharedPreferences.getBoolean("MewaMałaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa mała");
+        złapany = sharedPreferences.getBoolean("MewaModrodziobaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa modrodzioba");
+        złapany = sharedPreferences.getBoolean("MewaObrożnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa obrożna");
+        złapany = sharedPreferences.getBoolean("MewaPolarnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa polarna");
+        złapany = sharedPreferences.getBoolean("MewaRomańskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa romańska");
+        złapany = sharedPreferences.getBoolean("MewaSiodłataZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa siodłata");
+        złapany = sharedPreferences.getBoolean("MewaSiwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa siwa");
+        złapany = sharedPreferences.getBoolean("MewaSrebrzystaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa srebrzysta");
+        złapany = sharedPreferences.getBoolean("MewaTrójpalczastaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa trójpalczasta");
+        złapany = sharedPreferences.getBoolean("MewaŻółtonogaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mewa żółtonoga");
+        złapany = sharedPreferences.getBoolean("ModraczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Modraczek");
+        złapany = sharedPreferences.getBoolean("ModraszkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Modraszka");
+        złapany = sharedPreferences.getBoolean("MornelZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mornel");
+        złapany = sharedPreferences.getBoolean("MuchołówkaBiałoszyjaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Muchołówka białoszyja");
+        złapany = sharedPreferences.getBoolean("MuchłówkaMałaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Muchłówka mała");
+        złapany = sharedPreferences.getBoolean("MuchołówkaSzaraZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Muchołówka szara");
+        złapany = sharedPreferences.getBoolean("MuchołówkaŻałobnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Muchołówka żałobna");
+        złapany = sharedPreferences.getBoolean("MysikrólikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Mysikrólik");
+        złapany = sharedPreferences.getBoolean("MyszołówZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Myszołów");
+        złapany = sharedPreferences.getBoolean("MyszołówWłochatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Myszołów włochaty");
+        złapany = sharedPreferences.getBoolean("NagórnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nagórnik");
+        złapany = sharedPreferences.getBoolean("NawałnikBurzowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nawałnik burzowy");
+        złapany = sharedPreferences.getBoolean("NawałnikDużyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nawałnik duży");
+        złapany = sharedPreferences.getBoolean("NurBiałodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nur białodzioby");
+        złapany = sharedPreferences.getBoolean("NurCzarnoszyiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nur czarnoszyi");
+        złapany = sharedPreferences.getBoolean("NurnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nurnik");
+        złapany = sharedPreferences.getBoolean("NurogęśZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nurogęś");
+        złapany = sharedPreferences.getBoolean("NurRdzawoszyiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nur rdzawoszyi");
+        złapany = sharedPreferences.getBoolean("NurzykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nurzyk");
+        złapany = sharedPreferences.getBoolean("NurzykPolarnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Nurzyk polarny");
+        złapany = sharedPreferences.getBoolean("OceannikŻółtopłetwyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Oceannik żółtopłetwy");
+        złapany = sharedPreferences.getBoolean("OgorzałkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ogorzałka");
+        złapany = sharedPreferences.getBoolean("OgorzałkaMałaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ogorzałka mała");
+        złapany = sharedPreferences.getBoolean("OharZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ohar");
+        złapany = sharedPreferences.getBoolean("OknówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Oknówka");
+        złapany = sharedPreferences.getBoolean("OrlicaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orlica");
+        złapany = sharedPreferences.getBoolean("OrlikGrubodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orlik grubodzioby");
+        złapany = sharedPreferences.getBoolean("OrlikKrzykliwyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orlik krzykliwy");
+        złapany = sharedPreferences.getBoolean("OrłosępZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orłosęp");
+        złapany = sharedPreferences.getBoolean("OrtolanZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ortolan");
+        złapany = sharedPreferences.getBoolean("OrzechówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orzechówka");
+        złapany = sharedPreferences.getBoolean("OrzełCesarskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orzeł cesarski");
+        złapany = sharedPreferences.getBoolean("OrzełekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orzełek");
+        złapany = sharedPreferences.getBoolean("OrzełPrzedniZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orzeł przedni");
+        złapany = sharedPreferences.getBoolean("OrzełStepowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Orzeł stepowy");
+        złapany = sharedPreferences.getBoolean("OsetnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Osetnik");
+        złapany = sharedPreferences.getBoolean("OstrygojadZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ostrygojad");
+        złapany = sharedPreferences.getBoolean("PardwaMszarnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pardwa mszarna");
+        złapany = sharedPreferences.getBoolean("PasterzZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pasterz");
+        złapany = sharedPreferences.getBoolean("PaszkotZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Paszkot");
+        złapany = sharedPreferences.getBoolean("PelikanKędzierzawyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pelikan kędzierzawy");
+        złapany = sharedPreferences.getBoolean("PelikanRóżowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pelikan różowy");
+        złapany = sharedPreferences.getBoolean("PełzaczLeśnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pełzacz leśny");
+        złapany = sharedPreferences.getBoolean("PełzaczOgrodowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pełzacz ogrodowy");
+        złapany = sharedPreferences.getBoolean("PerkozDwuczubyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Perkoz dwuczuby");
+        złapany = sharedPreferences.getBoolean("PerkozekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Perkozek");
+        złapany = sharedPreferences.getBoolean("PerkozGrubodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Perkoz grubodzioby");
+        złapany = sharedPreferences.getBoolean("PerkozRdzawoszyiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Perkoz rdzawoszyi");
+        złapany = sharedPreferences.getBoolean("PerkozRogatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Perkoz rogaty");
+        złapany = sharedPreferences.getBoolean("PiaskowiecZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Piaskowiec");
+        złapany = sharedPreferences.getBoolean("PiecuszekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Piecuszek");
+        złapany = sharedPreferences.getBoolean("PiegżaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Piegża");
+        złapany = sharedPreferences.getBoolean("PierwiosnekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pierwiosnek");
+        złapany = sharedPreferences.getBoolean("PleszkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pleszka");
+        złapany = sharedPreferences.getBoolean("PliszkaGórskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pliszka górska");
+        złapany = sharedPreferences.getBoolean("PliszkaSiwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pliszka siwa");
+        złapany = sharedPreferences.getBoolean("PliszkaŻółtaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pliszka żółta");
+        złapany = sharedPreferences.getBoolean("PluszczZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pluszcz");
+        złapany = sharedPreferences.getBoolean("PłaskonosZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Płaskonos");
+        złapany = sharedPreferences.getBoolean("PłatkonógPłaskodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Płatkonóg płaskodzioby");
+        złapany = sharedPreferences.getBoolean("PłatkonógSzydłodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Płatkonóg szydłodzioby");
+        złapany = sharedPreferences.getBoolean("PłochaczHalnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Płochacz halny");
+        złapany = sharedPreferences.getBoolean("PłochaczSyberyjskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Płochacz syberyjski");
+        złapany = sharedPreferences.getBoolean("PłomykówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Płomykówka");
+        złapany = sharedPreferences.getBoolean("PodgorzałkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Podgorzałka");
+        złapany = sharedPreferences.getBoolean("PodróżniczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Podróżniczek");
+        złapany = sharedPreferences.getBoolean("PójdźkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pójdźka");
+        złapany = sharedPreferences.getBoolean("PokląskwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pokląskwa");
+        złapany = sharedPreferences.getBoolean("PokrzewkaAksamitnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pokrzewka aksamitna");
+        złapany = sharedPreferences.getBoolean("PokrzewkaWąsataZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pokrzewka wąsata");
+        złapany = sharedPreferences.getBoolean("PokrzywnicaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pokrzywnica");
+        złapany = sharedPreferences.getBoolean("PomurnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pomurnik");
+        złapany = sharedPreferences.getBoolean("PoświerkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Poświerka");
+        złapany = sharedPreferences.getBoolean("PotrzeszczZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Potrzeszcz");
+        złapany = sharedPreferences.getBoolean("PotrzosZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Potrzos");
+        złapany = sharedPreferences.getBoolean("PrzepiórkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Przepiórka");
+        złapany = sharedPreferences.getBoolean("PuchaczZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Puchacz");
+        złapany = sharedPreferences.getBoolean("PustułeczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pustułeczka");
+        złapany = sharedPreferences.getBoolean("PustułkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pustułka");
+        złapany = sharedPreferences.getBoolean("PustynnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Pustynnik");
+        złapany = sharedPreferences.getBoolean("PuszczykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Puszczyk");
+        złapany = sharedPreferences.getBoolean("PuszczykMszarnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Puszczyk mszarny");
+        złapany = sharedPreferences.getBoolean("PuszczykUralskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Puszczyk uralski");
+        złapany = sharedPreferences.getBoolean("RaniuszekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Raniuszek");
+        złapany = sharedPreferences.getBoolean("RarógZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Raróg");
+        złapany = sharedPreferences.getBoolean("RemizZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Remiz");
+        złapany = sharedPreferences.getBoolean("RokitniczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rokitniczka");
+        złapany = sharedPreferences.getBoolean("RożeniecZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rożeniec");
+        złapany = sharedPreferences.getBoolean("RudzikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rudzik");
+        złapany = sharedPreferences.getBoolean("RybaczekSrokatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybaczek srokaty");
+        złapany = sharedPreferences.getBoolean("RybitwaBiałoczelnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa białoczelna");
+        złapany = sharedPreferences.getBoolean("RybitwaBiałoskrzydłaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa białoskrzydła");
+        złapany = sharedPreferences.getBoolean("RybitwaBiałowąsaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa białowąsa");
+        złapany = sharedPreferences.getBoolean("RybitwaCzarnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa czarna");
+        złapany = sharedPreferences.getBoolean("RybitwaCzubataZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa czubata");
+        złapany = sharedPreferences.getBoolean("RybitwaKrótkodziobaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa krótkodzioba");
+        złapany = sharedPreferences.getBoolean("RybitwaPopielataZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa popielata");
+        złapany = sharedPreferences.getBoolean("RybitwaRóżowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa różowa");
+        złapany = sharedPreferences.getBoolean("RybitwaRzecznaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa rzeczna");
+        złapany = sharedPreferences.getBoolean("RybitwaWielkodziobaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybitwa wielkodzioba");
+        złapany = sharedPreferences.getBoolean("RybołówZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rybołów");
+        złapany = sharedPreferences.getBoolean("RycykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rycyk");
+        złapany = sharedPreferences.getBoolean("RzepołuchZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Rzepołuch");
+        złapany = sharedPreferences.getBoolean("SamotnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Samotnik");
+        złapany = sharedPreferences.getBoolean("SępKasztanowatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sęp kasztanowaty");
+        złapany = sharedPreferences.getBoolean("SępPłowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sęp płowy");
+        złapany = sharedPreferences.getBoolean("SierpówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sierpówka");
+        złapany = sharedPreferences.getBoolean("SieweczkaMongolskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sieweczka mongolska");
+        złapany = sharedPreferences.getBoolean("SieweczkaMorskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sieweczka morska");
+        złapany = sharedPreferences.getBoolean("SieweczkaObrożnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sieweczka obrożna");
+        złapany = sharedPreferences.getBoolean("SieweczkaPustynnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sieweczka pustynna");
+        złapany = sharedPreferences.getBoolean("SieweczkaRzecznaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sieweczka rzeczna");
+        złapany = sharedPreferences.getBoolean("SiewkaSzaraZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Siewka szara");
+        złapany = sharedPreferences.getBoolean("SiewkaZłotaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Siewka złota");
+        złapany = sharedPreferences.getBoolean("SiewkaZłotawaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Siewka złotawa");
+        złapany = sharedPreferences.getBoolean("SiewnicaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Siewnica");
+        złapany = sharedPreferences.getBoolean("SikoraLazurowaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sikora lazurowa");
+        złapany = sharedPreferences.getBoolean("SikoraUbogaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sikora uboga");
+        złapany = sharedPreferences.getBoolean("SiniakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Siniak");
+        złapany = sharedPreferences.getBoolean("SiwerniakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Siwerniak");
+        złapany = sharedPreferences.getBoolean("SkowrończykKrótkopalcowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Skowrończyk krótkopalcowy");
+        złapany = sharedPreferences.getBoolean("SkowronekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Skowronek");
+        złapany = sharedPreferences.getBoolean("SkowronekBiałoskrzydłyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Skowronek białoskrzydły");
+        złapany = sharedPreferences.getBoolean("SłonkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Słonka");
+        złapany = sharedPreferences.getBoolean("SłowikRdzawyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Słowik rdzawy");
+        złapany = sharedPreferences.getBoolean("SłowikSyberyjskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Słowik syberyjski");
+        złapany = sharedPreferences.getBoolean("SłowikSzaryZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Słowik szary");
+        złapany = sharedPreferences.getBoolean("SokółSkalnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sokół skalny");
+        złapany = sharedPreferences.getBoolean("SokółWędrownyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sokół wędrowny");
+        złapany = sharedPreferences.getBoolean("SosnówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sosnówka");
+        złapany = sharedPreferences.getBoolean("SowaJarzębataZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sowa jarzębata");
+        złapany = sharedPreferences.getBoolean("SowaŚnieżnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sowa śnieżna");
+        złapany = sharedPreferences.getBoolean("SójkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sójka");
+        złapany = sharedPreferences.getBoolean("SójkaSyberyjskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sójka syberyjska");
+        złapany = sharedPreferences.getBoolean("SóweczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sóweczka");
+        złapany = sharedPreferences.getBoolean("SrokaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sroka");
+        złapany = sharedPreferences.getBoolean("SrokoszZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Srokosz");
+        złapany = sharedPreferences.getBoolean("SterniczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sterniczka");
+        złapany = sharedPreferences.getBoolean("SterniczkaJamajskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Sterniczka jamajska");
+        złapany = sharedPreferences.getBoolean("StrepetZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Strepet");
+        złapany = sharedPreferences.getBoolean("StrumieniówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Strumieniówka");
+        złapany = sharedPreferences.getBoolean("StrzyżykZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Strzyżyk");
+        złapany = sharedPreferences.getBoolean("SyczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Syczek");
+        złapany = sharedPreferences.getBoolean("SzablodzióbZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Szablodziób");
+        złapany = sharedPreferences.getBoolean("SzczudłakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Szczudłak");
+        złapany = sharedPreferences.getBoolean("SzczygiełZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Szczygieł");
+        złapany = sharedPreferences.getBoolean("SzlacharZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Szlachar");
+        złapany = sharedPreferences.getBoolean("SzlamiecDługodziobyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Szlamiec długodzioby");
+        złapany = sharedPreferences.getBoolean("SzlamnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Szlamnik");
+        złapany = sharedPreferences.getBoolean("SzpakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Szpak");
+        złapany = sharedPreferences.getBoolean("ŚcierwnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ścierwnik");
+        złapany = sharedPreferences.getBoolean("ŚlepowronZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Ślepowron");
+        złapany = sharedPreferences.getBoolean("ŚmieszkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Śmieszka");
+        złapany = sharedPreferences.getBoolean("ŚniegułaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Śnieguła");
+        złapany = sharedPreferences.getBoolean("ŚnieżkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Śnieżka");
+        złapany = sharedPreferences.getBoolean("ŚpiewakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Śpiewak");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekDrzewnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świergotek drzewny");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekŁąkowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świergotek łąkowy");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekNadmorskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świergotek nadmorski");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekPolnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świergotek polny");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekRdzawogardłyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świergotek rdzawogardły");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekSzponiastyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świergotek szponiasty");
+        złapany = sharedPreferences.getBoolean("ŚwiergotekTajgowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świergotek tajgowy");
+        złapany = sharedPreferences.getBoolean("ŚwierszczakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świerszczak");
+        złapany = sharedPreferences.getBoolean("ŚwierszczakMelodyjnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świerszczak melodyjny");
+        złapany = sharedPreferences.getBoolean("ŚwistunZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstun");
+        złapany = sharedPreferences.getBoolean("ŚwistunAmerykańskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstun amerykański");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaAłtańskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka ałtańska");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaBrunatnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka brunatna");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaGórskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka górska");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaGrubodziobaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka grubodzioba");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaIberyjskaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka iberyjska");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaLeśnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka leśna");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaPółnocnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka północna");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaZłotawaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka złotawa");
+        złapany = sharedPreferences.getBoolean("ŚwistunkaŻółtawaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Świstunka żółtawa");
+        złapany = sharedPreferences.getBoolean("TamaryszkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Tamaryszka");
+        złapany = sharedPreferences.getBoolean("TerekiaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Terekia");
+        złapany = sharedPreferences.getBoolean("TrzciniakZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trzciniak");
+        złapany = sharedPreferences.getBoolean("TrzcinniczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trzcinniczek");
+        złapany = sharedPreferences.getBoolean("TrzcinniczekKaspijskiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trzcinniczek kaspijski");
+        złapany = sharedPreferences.getBoolean("TrzmielojadZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trzmielojad");
+        złapany = sharedPreferences.getBoolean("TrznadelZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trznadel");
+        złapany = sharedPreferences.getBoolean("TrznadelBiałogłowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trznadel białogłowy");
+        złapany = sharedPreferences.getBoolean("TrznadelCzarnogłowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trznadel czarnogłowy");
+        złapany = sharedPreferences.getBoolean("TrznadelCzubatyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trznadel czubaty");
+        złapany = sharedPreferences.getBoolean("TrznadelekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trznadelek");
+        złapany = sharedPreferences.getBoolean("TrznadelZłotawyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trznadel złotawy");
+        złapany = sharedPreferences.getBoolean("TrznadelZłotobrewyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Trznadel złotobrewy");
+        złapany = sharedPreferences.getBoolean("TurkanZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Turkan");
+        złapany = sharedPreferences.getBoolean("TurkawkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Turkawka");
+        złapany = sharedPreferences.getBoolean("TurkawkaWschodniaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Turkawka wschodnia");
+        złapany = sharedPreferences.getBoolean("UhlaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Uhla");
+        złapany = sharedPreferences.getBoolean("UhlaGarbonosaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Uhla garbonosa");
+        złapany = sharedPreferences.getBoolean("UszatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Uszatka");
+        złapany = sharedPreferences.getBoolean("UszatkaBłotnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Uszatka błotna");
+        złapany = sharedPreferences.getBoolean("WarzęchaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Warzęcha");
+        złapany = sharedPreferences.getBoolean("WąsatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wąsatka");
+        złapany = sharedPreferences.getBoolean("WieszczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wieszczek");
+        złapany = sharedPreferences.getBoolean("WilgaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wilga");
+        złapany = sharedPreferences.getBoolean("WireonekCzerwonookiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wireonek czerwonooki");
+        złapany = sharedPreferences.getBoolean("WłochatkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Włochatka");
+        złapany = sharedPreferences.getBoolean("WodniczkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wodniczka");
+        złapany = sharedPreferences.getBoolean("WodnikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wodnik");
+        złapany = sharedPreferences.getBoolean("WójcikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wójcik");
+        złapany = sharedPreferences.getBoolean("WróbelZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wróbel");
+        złapany = sharedPreferences.getBoolean("WróbelSkalnyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wróbel skalny");
+        złapany = sharedPreferences.getBoolean("WronaSiwaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wrona siwa");
+        złapany = sharedPreferences.getBoolean("WydrzykDługosternyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wydrzyk długosterny");
+        złapany = sharedPreferences.getBoolean("WydrzykOstrosternyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wydrzyk ostrosterny");
+        złapany = sharedPreferences.getBoolean("WydrzykTęposternyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wydrzyk tęposterny");
+        złapany = sharedPreferences.getBoolean("WydrzykWielkiZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Wydrzyk wielki");
+        złapany = sharedPreferences.getBoolean("ZaganiaczZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zaganiacz");
+        złapany = sharedPreferences.getBoolean("ZaganiaczMałyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zaganiacz mały");
+        złapany = sharedPreferences.getBoolean("ZaganiaczSzczebiotliwyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zaganiacz szczebiotliwy");
+        złapany = sharedPreferences.getBoolean("ZaroślówkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zaroślówka");
+        złapany = sharedPreferences.getBoolean("ZausznikZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zausznik");
+        złapany = sharedPreferences.getBoolean("ZiębaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zięba");
+        złapany = sharedPreferences.getBoolean("ZielonkaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zielonka");
+        złapany = sharedPreferences.getBoolean("ZimorodekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zimorodek");
+        złapany = sharedPreferences.getBoolean("ZniczekZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Zniczek");
+        złapany = sharedPreferences.getBoolean("ŻołnaZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Żołna");
+        złapany = sharedPreferences.getBoolean("ŻurawZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Żuraw");
+        złapany = sharedPreferences.getBoolean("ŻurawStepowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Żuraw stepowy");
+        złapany = sharedPreferences.getBoolean("ŻwirowiecŁąkowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Żwirowiec łąkowy");
+        złapany = sharedPreferences.getBoolean("ŻwirowiecStepowyZłapany", false);
+        if(!złapany)
+            listaGatunków.add("Żwirowiec stepowy");
     }
 
     public void utwórzListęGatunków(){
