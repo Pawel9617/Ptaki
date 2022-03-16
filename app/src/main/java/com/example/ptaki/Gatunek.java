@@ -1161,5 +1161,40 @@ public class Gatunek extends AppCompatActivity implements  View.OnClickListener{
             tvTytuł.setText(R.string.mewa_srebrzysta_tytuł);
             tvOpis.setText(R.string.mewa_srebrzysta_opis);
         }
+        if(GATUNEK.equals("MewaTrójpalczasta")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mewa_trojpalczasta));
+            tvTytuł.setText(R.string.mewa_trojpalczasta_tytuł);
+            tvOpis.setText(R.string.mewa_trojpalczasta_opis);
+        }
+        if(GATUNEK.equals("MewaŻółtonoga")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mewa_zoltonoga));
+            tvTytuł.setText(R.string.mewa_zoltonoga_tytuł);
+            tvOpis.setText(R.string.mewa_zoltonoga_opis);
+        }
+        if(GATUNEK.equals("Modraczek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.modraczek));
+            tvTytuł.setText(R.string.modraczek_tytuł);
+            tvOpis.setText(R.string.modraczek_opis);
+        }
+        if(GATUNEK.equals("Modraszka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.modraszka));
+            tvTytuł.setText(R.string.modraszka_tytuł);
+            tvOpis.setText(R.string.modraszka_opis);
+        }
+        if(GATUNEK.equals("Mornel")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mornel));
+            tvTytuł.setText(R.string.mornel_tytuł);
+            tvOpis.setText(R.string.mornel_opis);
+        }
+        if(GATUNEK.equals("MuchołówkaBiałoszyja")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mucholowka_bialoszyja));
+            tvTytuł.setText(R.string.mucholowka_bialoszyja_tytuł);
+            tvOpis.setText(R.string.mucholowka_bialoszyja_opis);
+        }
+        if(GATUNEK.equals("MuchołówkaMałą")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mucholowka_mala));
+            tvTytuł.setText(R.string.mucholowka_mala_tytuł);
+            tvOpis.setText(R.string.mucholowka_mala_opis);
+        }
     }
 }
