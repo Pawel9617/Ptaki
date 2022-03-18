@@ -1196,5 +1196,35 @@ public class Gatunek extends AppCompatActivity implements  View.OnClickListener{
             tvTytuł.setText(R.string.mucholowka_mala_tytuł);
             tvOpis.setText(R.string.mucholowka_mala_opis);
         }
+        if(GATUNEK.equals("MuchołówkaSzara")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mucholowka_szara));
+            tvTytuł.setText(R.string.mucholowka_szara_tytuł);
+            tvOpis.setText(R.string.mucholowka_szara_opis);
+        }
+        if(GATUNEK.equals("MuchołówkaŻałobna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mucholowka_zalobna));
+            tvTytuł.setText(R.string.mucholowka_zalobna_tytuł);
+            tvOpis.setText(R.string.mucholowka_zalobna_opis);
+        }
+        if(GATUNEK.equals("Mysikrólik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.mysikrolik));
+            tvTytuł.setText(R.string.mysikrolik_tytuł);
+            tvOpis.setText(R.string.mysikrolik_opis);
+        }
+        if(GATUNEK.equals("Myszołów")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.myszolow));
+            tvTytuł.setText(R.string.myszolow_tytuł);
+            tvOpis.setText(R.string.myszolow_opis);
+        }
+        if(GATUNEK.equals("MyszołówWłochaty")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.myszolow_wlochaty));
+            tvTytuł.setText(R.string.myszolow_wlochaty_tytuł);
+            tvOpis.setText(R.string.myszolow_wlochaty_opis);
+        }
+        if(GATUNEK.equals("Nagórnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nagornik));
+            tvTytuł.setText(R.string.nagornik_tytuł);
+            tvOpis.setText(R.string.nagornik_opis);
+        }
     }
 }
