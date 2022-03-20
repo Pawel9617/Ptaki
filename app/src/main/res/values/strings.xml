@@ -724,8 +724,8 @@
     <string name="sterniczka_jamajska_opis">temp3</string>
     <string name="strepet_tytuł">temp2</string>
     <string name="strepet_opis">temp3</string>
-    <string name="stumieniowka_tytuł">temp2</string>
-    <string name="stumieniowka_opis">temp3</string>
+    <string name="strumieniowka_tytuł">temp2</string>
+    <string name="strumieniowka_opis">temp3</string>
     <string name="strzyzyk_tytuł">temp2</string>
     <string name="strzyzyk_opis">temp3</string>
     <string name="syczek_tytuł">temp2</string>
@@ -812,6 +812,8 @@
     <string name="trznadel_opis">temp3</string>
     <string name="trznadel_bialoglowy_tytuł">temp2</string>
     <string name="trznadel_bialoglowy_opis">temp3</string>
+    <string name="trznadel_czarnoglowy_tytuł">temp2</string>
+    <string name="trznadel_czarnoglowy_opis">temp3</string>
     <string name="trznadel_czubaty_tytuł">temp2</string>
     <string name="trznadel_czubaty_opis">temp3</string>
     <string name="trznadelek_tytuł">temp2</string>

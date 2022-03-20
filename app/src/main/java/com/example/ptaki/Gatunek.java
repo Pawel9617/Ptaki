@@ -1226,5 +1226,1075 @@ public class Gatunek extends AppCompatActivity implements  View.OnClickListener{
             tvTytuł.setText(R.string.nagornik_tytuł);
             tvOpis.setText(R.string.nagornik_opis);
         }
+        if(GATUNEK.equals("NawałnikDuży")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nawalnik_duzy));
+            tvTytuł.setText(R.string.nawalnik_duzy_tytuł);
+            tvOpis.setText(R.string.nawalnik_duzy_opis);
+        }
+        if(GATUNEK.equals("NurBiałodzioby")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nur_bialodzioby));
+            tvTytuł.setText(R.string.nur_bialodzioby_tytuł);
+            tvOpis.setText(R.string.nur_bialodzioby_opis);
+        }
+        if(GATUNEK.equals("NurCzarnoszyi")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nur_czarnoszyi));
+            tvTytuł.setText(R.string.nur_czarnoszyi_tytuł);
+            tvOpis.setText(R.string.nur_czarnoszyi_opis);
+        }
+        if(GATUNEK.equals("Nurnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nurnik));
+            tvTytuł.setText(R.string.nurnik_tytuł);
+            tvOpis.setText(R.string.nurnik_opis);
+        }
+        if(GATUNEK.equals("Nurogęś")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nuroges));
+            tvTytuł.setText(R.string.nuroges_tytuł);
+            tvOpis.setText(R.string.nuroges_opis);
+        }
+        if(GATUNEK.equals("NurRdzawoszyi")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nur_rdzawoszyi));
+            tvTytuł.setText(R.string.nur_rdzawoszyi_tytuł);
+            tvOpis.setText(R.string.nur_rdzawoszyi_opis);
+        }
+        if(GATUNEK.equals("Nurzyk")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nurzyk));
+            tvTytuł.setText(R.string.nurzyk_tytuł);
+            tvOpis.setText(R.string.nurzyk_opis);
+        }
+        if(GATUNEK.equals("NurzykPolarny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.nurzyk_polarny));
+            tvTytuł.setText(R.string.nurzyk_polarny_tytuł);
+            tvOpis.setText(R.string.nurzyk_polarny_opis);
+        }
+        if(GATUNEK.equals("OceannikŻółtopłetwy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.oceannik_zoltopletwy));
+            tvTytuł.setText(R.string.oceannik_zoltopletwy_tytuł);
+            tvOpis.setText(R.string.oceannik_zoltopletwy_opis);
+        }
+        if(GATUNEK.equals("Ogorzałka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.ogorzalka));
+            tvTytuł.setText(R.string.ogorzalka_tytuł);
+            tvOpis.setText(R.string.ogorzalka_opis);
+        }
+        if(GATUNEK.equals("OgorzałkaMała")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.ogorzalka_mala));
+            tvTytuł.setText(R.string.ogorzalka_mala_tytuł);
+            tvOpis.setText(R.string.ogorzalka_mala_opis);
+        }
+        if(GATUNEK.equals("Ohar")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.ohar));
+            tvTytuł.setText(R.string.ohar_tytuł);
+            tvOpis.setText(R.string.ohar_opis);
+        }
+        if(GATUNEK.equals("Oknówka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.oknowka));
+            tvTytuł.setText(R.string.oknowka_tytuł);
+            tvOpis.setText(R.string.oknowka_opis);
+        }
+        if(GATUNEK.equals("Orlica")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orlica));
+            tvTytuł.setText(R.string.orlica_tytuł);
+            tvOpis.setText(R.string.orlica_opis);
+        }
+        if(GATUNEK.equals("OrlikGrubodzioby")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orlik_grubodzioby));
+            tvTytuł.setText(R.string.orlik_grubodzioby_tytuł);
+            tvOpis.setText(R.string.orlik_grubodzioby_opis);
+        }
+        if(GATUNEK.equals("OrlikKrzykliwy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orlik_krzykliwy));
+            tvTytuł.setText(R.string.orlik_krzykliwy_tytuł);
+            tvOpis.setText(R.string.orlik_krzykliwy_opis);
+        }
+        if(GATUNEK.equals("Orłosęp")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orlosep));
+            tvTytuł.setText(R.string.orlosep_tytuł);
+            tvOpis.setText(R.string.orlosep_opis);
+        }
+        if(GATUNEK.equals("Ortolan")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.ortolan));
+            tvTytuł.setText(R.string.ortolan_tytuł);
+            tvOpis.setText(R.string.ortolan_opis);
+        }
+        if(GATUNEK.equals("Orzechówka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orzechowka));
+            tvTytuł.setText(R.string.orzechowka_tytuł);
+            tvOpis.setText(R.string.orzechowka_opis);
+        }
+        if(GATUNEK.equals("OrzełCesarski")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orzel_cesarski));
+            tvTytuł.setText(R.string.orzel_cesarski_tytuł);
+            tvOpis.setText(R.string.orzel_cesarski_opis);
+        }
+        if(GATUNEK.equals("Orzełek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orzelek));
+            tvTytuł.setText(R.string.orzelek_tytuł);
+            tvOpis.setText(R.string.orzelek_opis);
+        }
+        if(GATUNEK.equals("OrzełPrzedni")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orzel_przedni));
+            tvTytuł.setText(R.string.orzel_przedni_tytuł);
+            tvOpis.setText(R.string.orzel_przedni_opis);
+        }
+        if(GATUNEK.equals("OrzełStepowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.orzel_stepowy));
+            tvTytuł.setText(R.string.orzel_stepowy_tytuł);
+            tvOpis.setText(R.string.orzel_stepowy_opis);
+        }
+        if(GATUNEK.equals("Osetnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.osetnik));
+            tvTytuł.setText(R.string.osetnik_tytuł);
+            tvOpis.setText(R.string.osetnik_opis);
+        }
+        if(GATUNEK.equals("Ostrygojad")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.ostrygojad));
+            tvTytuł.setText(R.string.ostrygojad_tytuł);
+            tvOpis.setText(R.string.ostrygojad_opis);
+        }
+        if(GATUNEK.equals("PardwaMszarna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pardwa_mszarna));
+            tvTytuł.setText(R.string.pardwa_mszarna_tytuł);
+            tvOpis.setText(R.string.pardwa_mszarna_opis);
+        }
+        if(GATUNEK.equals("Pasterz")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pasterz));
+            tvTytuł.setText(R.string.pasterz_tytuł);
+            tvOpis.setText(R.string.pasterz_opis);
+        }
+        if(GATUNEK.equals("Paszkot")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.paszkot));
+            tvTytuł.setText(R.string.paszkot_tytuł);
+            tvOpis.setText(R.string.paszkot_opis);
+        }
+        if(GATUNEK.equals("PelikanKędzierzawy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pelikan_kedzierzawy));
+            tvTytuł.setText(R.string.pelikan_kedzierzawy_tytuł);
+            tvOpis.setText(R.string.pelikan_kedzierzawy_opis);
+        }
+        if(GATUNEK.equals("PelikanRóżowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pelikan_rozowy));
+            tvTytuł.setText(R.string.pelikan_rozowy_tytuł);
+            tvOpis.setText(R.string.pelikan_rozowy_opis);
+        }
+        if(GATUNEK.equals("PełzaczLeśny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pelzacz_lesny));
+            tvTytuł.setText(R.string.pelzacz_lesny_tytuł);
+            tvOpis.setText(R.string.pelzacz_lesny_opis);
+        }
+        if(GATUNEK.equals("PełzaczOgrodowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pelzacz_ogrodowy));
+            tvTytuł.setText(R.string.pelzacz_ogrodowy_tytuł);
+            tvOpis.setText(R.string.pelzacz_ogrodowy_opis);
+        }
+        if(GATUNEK.equals("PerkozDwuczuby")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.perkoz_dwuczuby));
+            tvTytuł.setText(R.string.perkoz_dwuczuby_tytuł);
+            tvOpis.setText(R.string.perkoz_dwuczuby_opis);
+        }
+        if(GATUNEK.equals("Perkozek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.perkozek));
+            tvTytuł.setText(R.string.perkozek_tytuł);
+            tvOpis.setText(R.string.perkozek_opis);
+        }
+        if(GATUNEK.equals("PerkozGrubodzioby")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.perkoz_grubodzioby));
+            tvTytuł.setText(R.string.perkoz_grubodzioby_tytuł);
+            tvOpis.setText(R.string.perkoz_grubodzioby_opis);
+        }
+        if(GATUNEK.equals("PerkozRogaty")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.perkoz_rogaty));
+            tvTytuł.setText(R.string.perkoz_rogaty_tytuł);
+            tvOpis.setText(R.string.perkoz_rogaty_opis);
+        }
+        if(GATUNEK.equals("Piaskowiec")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.piaskowiec));
+            tvTytuł.setText(R.string.piaskowiec_tytuł);
+            tvOpis.setText(R.string.piaskowiec_opis);
+        }
+        if(GATUNEK.equals("Piecuszek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.piecuszek));
+            tvTytuł.setText(R.string.piecuszka_tytuł);
+            tvOpis.setText(R.string.piecuszka_opis);
+        }
+        if(GATUNEK.equals("Piegża")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.piegza));
+            tvTytuł.setText(R.string.piegza_tytuł);
+            tvOpis.setText(R.string.piegza_opis);
+        }
+        if(GATUNEK.equals("Pierwiosnek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pierwiosnek));
+            tvTytuł.setText(R.string.pierwiosnek_tytuł);
+            tvOpis.setText(R.string.pierwiosnek_opis);
+        }
+        if(GATUNEK.equals("Pleszka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pleszka));
+            tvTytuł.setText(R.string.pleszka_tytuł);
+            tvOpis.setText(R.string.pleszka_opis);
+        }
+        if(GATUNEK.equals("PliszkaGórska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pliszka_gorska));
+            tvTytuł.setText(R.string.pliszka_gorska_tytuł);
+            tvOpis.setText(R.string.pliszka_gorska_opis);
+        }
+        if(GATUNEK.equals("PliszkaSiwa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pliszka_siwa));
+            tvTytuł.setText(R.string.pliszka_siwa_tytuł);
+            tvOpis.setText(R.string.pliszka_siwa_opis);
+        }
+        if(GATUNEK.equals("PliszkaŻółta")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pliszka_zolta));
+            tvTytuł.setText(R.string.pliszka_zolta_tytuł);
+            tvOpis.setText(R.string.pliszka_zolta_opis);
+        }
+        if(GATUNEK.equals("PliszkaŻółta")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pliszka_zolta));
+            tvTytuł.setText(R.string.pliszka_zolta_tytuł);
+            tvOpis.setText(R.string.pliszka_zolta_opis);
+        }
+        if(GATUNEK.equals("Pluszcz")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pluszcz));
+            tvTytuł.setText(R.string.pluszcz_tytuł);
+            tvOpis.setText(R.string.pluszcz_opis);
+        }
+        if(GATUNEK.equals("Płaskonos")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.plaskonos));
+            tvTytuł.setText(R.string.plaskonos_tytuł);
+            tvOpis.setText(R.string.plaskonos_opis);
+        }
+        if(GATUNEK.equals("PłatkonógPłaskodzioby")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.platkonog_plaskodzioby));
+            tvTytuł.setText(R.string.platkonog_plaskodzioby_tytuł);
+            tvOpis.setText(R.string.platkonog_plaskodzioby_opis);
+        }
+        if(GATUNEK.equals("PłatkonógSzydłodzioby")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.platkonog_szydlodzioby));
+            tvTytuł.setText(R.string.platkonog_szydlodzioby_tytuł);
+            tvOpis.setText(R.string.platkonog_szydlodzioby_opis);
+        }
+        if(GATUNEK.equals("PłochaczHalny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.plochacz_halny));
+            tvTytuł.setText(R.string.plochacz_halny_tytuł);
+            tvOpis.setText(R.string.plochacz_halny_opis);
+        }
+        if(GATUNEK.equals("PłochaczcSyberyjski")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.plochacz_syberyjski));
+            tvTytuł.setText(R.string.plochacz_syberyjski_tytuł);
+            tvOpis.setText(R.string.plochacz_syberyjski_opis);
+        }
+        if(GATUNEK.equals("Płomykówka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.plomykowka));
+            tvTytuł.setText(R.string.plomykowka_tytuł);
+            tvOpis.setText(R.string.plomykowka_opis);
+        }
+        if(GATUNEK.equals("Podgorzałka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.podgorzalka));
+            tvTytuł.setText(R.string.podgorzalka_tytuł);
+            tvOpis.setText(R.string.podgorzalka_opis);
+        }
+        if(GATUNEK.equals("Podróżniczek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.podrozniczek));
+            tvTytuł.setText(R.string.podrozniczek_tytuł);
+            tvOpis.setText(R.string.podrozniczek_opis);
+        }
+        if(GATUNEK.equals("Pójdźka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pojdzka));
+            tvTytuł.setText(R.string.pojdzka_tytuł);
+            tvOpis.setText(R.string.pojdzka_opis);
+        }
+        if(GATUNEK.equals("Pokląskwa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.poklaskwa));
+            tvTytuł.setText(R.string.poklaskwa_tytuł);
+            tvOpis.setText(R.string.poklaskwa_opis);
+        }
+        if(GATUNEK.equals("PokrzewkaAksamitna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pokrzewka_aksamitna));
+            tvTytuł.setText(R.string.pokrzewka_aksamitna_tytuł);
+            tvOpis.setText(R.string.pokrzewka_aksamitna_opis);
+        }
+        if(GATUNEK.equals("PokrzewkaWąsata")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pokrzewka_wasata));
+            tvTytuł.setText(R.string.pokrzewka_wasata_tytuł);
+            tvOpis.setText(R.string.pokrzewka_wasata_opis);
+        }
+        if(GATUNEK.equals("Pokrzywnica")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pokrzywnica));
+            tvTytuł.setText(R.string.pokrzywnica_tytuł);
+            tvOpis.setText(R.string.pokrzywnica_opis);
+        }
+        if(GATUNEK.equals("Pomurnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pomurnik));
+            tvTytuł.setText(R.string.pomurnik_tytuł);
+            tvOpis.setText(R.string.pomurnik_opis);
+        }
+        if(GATUNEK.equals("Poświerka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.poswierka));
+            tvTytuł.setText(R.string.poswierka_tytuł);
+            tvOpis.setText(R.string.poswierka_opis);
+        }
+        if(GATUNEK.equals("Potrzeszcz")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.potrzeszcz));
+            tvTytuł.setText(R.string.potrzeszcz_tytuł);
+            tvOpis.setText(R.string.potrzeszcz_opis);
+        }
+        if(GATUNEK.equals("Potrzos")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.potrzos));
+            tvTytuł.setText(R.string.potrzos_tytuł);
+            tvOpis.setText(R.string.potrzos_opis);
+        }
+        if(GATUNEK.equals("Przepiórka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.przepiorka));
+            tvTytuł.setText(R.string.przepiorka_tytuł);
+            tvOpis.setText(R.string.przepiorka_opis);
+        }
+        if(GATUNEK.equals("Puchacz")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.puchacz));
+            tvTytuł.setText(R.string.puchacz_tytuł);
+            tvOpis.setText(R.string.puchacz_opis);
+        }
+        if(GATUNEK.equals("Pustułeczka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pustuleczka));
+            tvTytuł.setText(R.string.pustuleczka_tytuł);
+            tvOpis.setText(R.string.pustuleczka_opis);
+        }
+        if(GATUNEK.equals("Pustułka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pustulka));
+            tvTytuł.setText(R.string.pustulka_tytuł);
+            tvOpis.setText(R.string.pustulka_opis);
+        }
+        if(GATUNEK.equals("Pustynnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.pustynnik));
+            tvTytuł.setText(R.string.pustynnik_tytuł);
+            tvOpis.setText(R.string.pustynnik_opis);
+        }
+        if(GATUNEK.equals("Puszczyk")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.puszczyk));
+            tvTytuł.setText(R.string.puszczyk_tytuł);
+            tvOpis.setText(R.string.puszczyk_opis);
+        }
+        if(GATUNEK.equals("PuszczykMszarny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.puszczyk_mszarny));
+            tvTytuł.setText(R.string.puszczyk_mszarny_tytuł);
+            tvOpis.setText(R.string.puszczyk_mszarny_opis);
+        }
+        if(GATUNEK.equals("PuszczykUralski")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.puszczyk_uralski));
+            tvTytuł.setText(R.string.puszczyk_uralski_tytuł);
+            tvOpis.setText(R.string.puszczyk_uralski_opis);
+        }
+        if(GATUNEK.equals("Raniuszek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.raniuszek));
+            tvTytuł.setText(R.string.raniuszek_tytuł);
+            tvOpis.setText(R.string.raniuszek_opis);
+        }
+        if(GATUNEK.equals("Raróg")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rarog));
+            tvTytuł.setText(R.string.rarog_tytuł);
+            tvOpis.setText(R.string.rarog_opis);
+        }
+        if(GATUNEK.equals("Remiz")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.remiz));
+            tvTytuł.setText(R.string.remiz_tytuł);
+            tvOpis.setText(R.string.remiz_opis);
+        }
+        if(GATUNEK.equals("Rokitniczka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rokitniczka));
+            tvTytuł.setText(R.string.rokitniczka_tytuł);
+            tvOpis.setText(R.string.rokitniczka_opis);
+        }
+        if(GATUNEK.equals("Rożeniec")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rozeniec));
+            tvTytuł.setText(R.string.rozeniec_tytuł);
+            tvOpis.setText(R.string.rozeniec_opis);
+        }
+        if(GATUNEK.equals("Rudzik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rudzik));
+            tvTytuł.setText(R.string.rudzik_tytuł);
+            tvOpis.setText(R.string.rudzik_opis);
+        }
+        if(GATUNEK.equals("RybaczekSrokaty")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybaczek_srokaty));
+            tvTytuł.setText(R.string.rybaczek_srokaty_tytuł);
+            tvOpis.setText(R.string.rybaczek_srokaty_opis);
+        }
+        if(GATUNEK.equals("RybitwaBiałoczelna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_bialoczelna));
+            tvTytuł.setText(R.string.rybitwa_bialoczelna_tytuł);
+            tvOpis.setText(R.string.rybitwa_bialoczelna_opis);
+        }
+        if(GATUNEK.equals("RybitwaBiałoskrzydła")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_bialoskrzydla));
+            tvTytuł.setText(R.string.rybitwa_bialoskrzydla_tytuł);
+            tvOpis.setText(R.string.rybitwa_bialoskrzydla_opis);
+        }
+        if(GATUNEK.equals("RybitwaBiałowąsa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_bialowasa));
+            tvTytuł.setText(R.string.rybitwa_bialowasa_tytuł);
+            tvOpis.setText(R.string.rybitwa_bialowasa_opis);
+        }
+        if(GATUNEK.equals("RybitwaCzarna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_czarna));
+            tvTytuł.setText(R.string.rybitwa_czarna_tytuł);
+            tvOpis.setText(R.string.rybitwa_czarna_opis);
+        }
+        if(GATUNEK.equals("RybitwaCzubata")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_czubata));
+            tvTytuł.setText(R.string.rybitwa_czubata_tytuł);
+            tvOpis.setText(R.string.rybitwa_czubata_opis);
+        }
+        if(GATUNEK.equals("RybitwaKrótkodzioba")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_krotkodzioba));
+            tvTytuł.setText(R.string.rybitwa_krotkodzioba_tytuł);
+            tvOpis.setText(R.string.rybitwa_krotkodzioba_opis);
+        }
+        if(GATUNEK.equals("RybitwaPopielata")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_popielata));
+            tvTytuł.setText(R.string.rybitwa_popielata_tytuł);
+            tvOpis.setText(R.string.rybitwa_popielata_opis);
+        }
+        if(GATUNEK.equals("RybitwaRóżowa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_rozowa));
+            tvTytuł.setText(R.string.rybitwa_rozowa_tytuł);
+            tvOpis.setText(R.string.rybitwa_rozowa_opis);
+        }
+        if(GATUNEK.equals("RybitwaRzeczna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_rzeczna));
+            tvTytuł.setText(R.string.rybitwa_rzeczna_tytuł);
+            tvOpis.setText(R.string.rybitwa_rzeczna_opis);
+        }
+        if(GATUNEK.equals("RybitwaWielkodzioba")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybitwa_wielkodzioba));
+            tvTytuł.setText(R.string.rybitwa_wielkodzioba_tytuł);
+            tvOpis.setText(R.string.rybitwa_wielkodzioba_opis);
+        }
+        if(GATUNEK.equals("Rybołów")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rybolow));
+            tvTytuł.setText(R.string.rybolow_tytuł);
+            tvOpis.setText(R.string.rybolow_opis);
+        }
+        if(GATUNEK.equals("Rycyk")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rycyk));
+            tvTytuł.setText(R.string.rycyk_tytuł);
+            tvOpis.setText(R.string.rycyk_opis);
+        }
+        if(GATUNEK.equals("Rzepołuch")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.rzepoluch));
+            tvTytuł.setText(R.string.rzepoluch_tytuł);
+            tvOpis.setText(R.string.rzepoluch_opis);
+        }
+        if(GATUNEK.equals("Samotnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.samotnik));
+            tvTytuł.setText(R.string.samotnik_tytuł);
+            tvOpis.setText(R.string.samotnik_opis);
+        }
+        if(GATUNEK.equals("SępKasztanowaty")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sep_kasztanowaty));
+            tvTytuł.setText(R.string.sep_kasztanowaty_tytuł);
+            tvOpis.setText(R.string.sep_kasztanowaty_opis);
+        }
+        if(GATUNEK.equals("SępPłowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sep_plowy));
+            tvTytuł.setText(R.string.sep_plowy_tytuł);
+            tvOpis.setText(R.string.sep_plowy_opis);
+        }
+        if(GATUNEK.equals("Sierpówka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sierpowka));
+            tvTytuł.setText(R.string.sierpowka_tytuł);
+            tvOpis.setText(R.string.sierpowka_opis);
+        }
+        if(GATUNEK.equals("SieweczkaMongolska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sieweczka_mongolska));
+            tvTytuł.setText(R.string.sieweczka_mongolska_tytuł);
+            tvOpis.setText(R.string.sieweczka_mongolska_opis);
+        }
+        if(GATUNEK.equals("SieweczkaMorska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sieweczka_morska));
+            tvTytuł.setText(R.string.sieweczka_morska_tytuł);
+            tvOpis.setText(R.string.sieweczka_morska_opis);
+        }
+        if(GATUNEK.equals("SieweczkaObrożna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sieweczka_obrozna));
+            tvTytuł.setText(R.string.sieweczka_obrozna_tytuł);
+            tvOpis.setText(R.string.sieweczka_obrozna_opis);
+        }
+        if(GATUNEK.equals("SieweczkaPustynna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sieweczka_pustynna));
+            tvTytuł.setText(R.string.sieweczka_pustynna_tytuł);
+            tvOpis.setText(R.string.sieweczka_pustynna_opis);
+        }
+        if(GATUNEK.equals("SieweczkaRzeczna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sieweczka_rzeczna));
+            tvTytuł.setText(R.string.sieweczka_rzeczna_tytuł);
+            tvOpis.setText(R.string.sieweczka_rzeczna_opis);
+        }
+        if(GATUNEK.equals("SiewkaSzara")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.siewka_szara));
+            tvTytuł.setText(R.string.siewka_szara_tytuł);
+            tvOpis.setText(R.string.siewka_szara_opis);
+        }
+        if(GATUNEK.equals("SiewkaZłota")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.siewka_zlota));
+            tvTytuł.setText(R.string.siewka_zlota_tytuł);
+            tvOpis.setText(R.string.siewka_zlota_opis);
+        }
+        if(GATUNEK.equals("SiewkaZłotawa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.siewka_zlotawa));
+            tvTytuł.setText(R.string.siewka_zlotawa_tytuł);
+            tvOpis.setText(R.string.siewka_zlotawa_opis);
+        }
+        if(GATUNEK.equals("Siewnica")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.siewnica));
+            tvTytuł.setText(R.string.siewnica_tytuł);
+            tvOpis.setText(R.string.siewnica_opis);
+        }
+        if(GATUNEK.equals("SikoraLazurowa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sikora_lazurowa));
+            tvTytuł.setText(R.string.sikora_lazurowa_tytuł);
+            tvOpis.setText(R.string.sikora_lazurowa_opis);
+        }
+        if(GATUNEK.equals("SikoraUboga")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sikora_uboga));
+            tvTytuł.setText(R.string.sikora_uboga_tytuł);
+            tvOpis.setText(R.string.sikora_uboga_opis);
+        }
+        if(GATUNEK.equals("Siniak")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.siniak));
+            tvTytuł.setText(R.string.siniak_tytuł);
+            tvOpis.setText(R.string.siniak_opis);
+        }
+        if(GATUNEK.equals("Siwerniak")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.siwerniak));
+            tvTytuł.setText(R.string.siwerniak_tytuł);
+            tvOpis.setText(R.string.siwerniak_opis);
+        }
+        if(GATUNEK.equals("SkowrończykKrótkopalcowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.skowronczyk_krotkopalcowy));
+            tvTytuł.setText(R.string.skowronczyk_krotkopalcowy_tytuł);
+            tvOpis.setText(R.string.skowronczyk_krotkopalcowy_opis);
+        }
+        if(GATUNEK.equals("Skowronek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.skowronek));
+            tvTytuł.setText(R.string.skowronek_tytuł);
+            tvOpis.setText(R.string.skowronek_opis);
+        }
+        if(GATUNEK.equals("SkowronekBiałoskrzydły")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.skowronek_bialoskrzydly));
+            tvTytuł.setText(R.string.skowronek_bialoskrzydly_tytuł);
+            tvOpis.setText(R.string.skowronek_bialoskrzydly_opis);
+        }
+        if(GATUNEK.equals("Słonka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.slonka));
+            tvTytuł.setText(R.string.slonka_tytuł);
+            tvOpis.setText(R.string.slonka_opis);
+        }
+        if(GATUNEK.equals("SłowikRdzawy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.slowik_rdzawy));
+            tvTytuł.setText(R.string.slowik_rdzawy_tytuł);
+            tvOpis.setText(R.string.slowik_rdzawy_opis);
+        }
+        if(GATUNEK.equals("SłowikSyberyjski")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.slowik_syberyjski));
+            tvTytuł.setText(R.string.slowik_syberyjski_tytuł);
+            tvOpis.setText(R.string.slowik_syberyjski_opis);
+        }
+        if(GATUNEK.equals("SłowikSzary")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.slowik_szary));
+            tvTytuł.setText(R.string.slowik_szary_tytuł);
+            tvOpis.setText(R.string.slowik_szary_opis);
+        }
+        if(GATUNEK.equals("SokółSkalny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sokol_skalny));
+            tvTytuł.setText(R.string.sokol_skalny_tytuł);
+            tvOpis.setText(R.string.sokol_skalny_opis);
+        }
+        if(GATUNEK.equals("SokółWędrowny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sokol_wedrowny));
+            tvTytuł.setText(R.string.sokol_wedrowny_tytuł);
+            tvOpis.setText(R.string.sokol_wedrowny_opis);
+        }
+        if(GATUNEK.equals("Sosnówka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sosnowka));
+            tvTytuł.setText(R.string.sosnowka_tytuł);
+            tvOpis.setText(R.string.sosnowka_opis);
+        }
+        if(GATUNEK.equals("SowaJarzębata")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sowa_jarzebata));
+            tvTytuł.setText(R.string.sowa_jarzebata_tytuł);
+            tvOpis.setText(R.string.sowa_jarzebata_opis);
+        }
+        if(GATUNEK.equals("SowaŚnieżna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sowa_sniezna));
+            tvTytuł.setText(R.string.sowa_sniezna_tytuł);
+            tvOpis.setText(R.string.sowa_sniezna_opis);
+        }
+        if(GATUNEK.equals("Sójka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sojka));
+            tvTytuł.setText(R.string.sojka_tytuł);
+            tvOpis.setText(R.string.sojka_opis);
+        }
+        if(GATUNEK.equals("SójkaSyberyjska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sojka_syberyjska));
+            tvTytuł.setText(R.string.sojka_syberyjska_tytuł);
+            tvOpis.setText(R.string.sojka_syberyjska_opis);
+        }
+        if(GATUNEK.equals("Sóweczka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.soweczka));
+            tvTytuł.setText(R.string.soweczka_tytuł);
+            tvOpis.setText(R.string.soweczka_opis);
+        }
+        if(GATUNEK.equals("Sroka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sroka));
+            tvTytuł.setText(R.string.sroka_tytuł);
+            tvOpis.setText(R.string.sroka_opis);
+        }
+        if(GATUNEK.equals("Srokosz")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.srokosz));
+            tvTytuł.setText(R.string.srokosz_tytuł);
+            tvOpis.setText(R.string.srokosz_opis);
+        }
+        if(GATUNEK.equals("Sterniczka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sterniczka));
+            tvTytuł.setText(R.string.sterniczka_tytuł);
+            tvOpis.setText(R.string.sterniczka_opis);
+        }
+        if(GATUNEK.equals("SterniczkaJamajska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sterniczka_jamajska));
+            tvTytuł.setText(R.string.sterniczka_jamajska_tytuł);
+            tvOpis.setText(R.string.sterniczka_jamajska_opis);
+        }
+        if(GATUNEK.equals("Strepet")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.strepet));
+            tvTytuł.setText(R.string.strepet_tytuł);
+            tvOpis.setText(R.string.strepet_opis);
+        }
+        if(GATUNEK.equals("Strumieniówka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.strumieniowka));
+            tvTytuł.setText(R.string.strumieniowka_tytuł);
+            tvOpis.setText(R.string.strumieniowka_opis);
+        }
+        if(GATUNEK.equals("Strzyżyk")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.strzyzyk));
+            tvTytuł.setText(R.string.strzyzyk_tytuł);
+            tvOpis.setText(R.string.strzyzyk_opis);
+        }
+        if(GATUNEK.equals("Syczek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.syczek));
+            tvTytuł.setText(R.string.syczek_tytuł);
+            tvOpis.setText(R.string.syczek_opis);
+        }
+        if(GATUNEK.equals("Szablodziób")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.szablodziob));
+            tvTytuł.setText(R.string.szablodziob_tytuł);
+            tvOpis.setText(R.string.szablodziob_opis);
+        }
+        if(GATUNEK.equals("Szczudłak")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.szczudlak));
+            tvTytuł.setText(R.string.szczudlak_tytuł);
+            tvOpis.setText(R.string.szczudlak_opis);
+        }
+        if(GATUNEK.equals("Szczygieł")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.szczygiel));
+            tvTytuł.setText(R.string.szczygiel_tytuł);
+            tvOpis.setText(R.string.szczygiel_opis);
+        }
+        if(GATUNEK.equals("Szlachar")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.szlachar));
+            tvTytuł.setText(R.string.szlachar_tytuł);
+            tvOpis.setText(R.string.szlachar_opis);
+        }
+        if(GATUNEK.equals("SzlamiecDługodzioby")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.szlamiec_dlugodzioby));
+            tvTytuł.setText(R.string.szlamiec_dlugodzioby_tytuł);
+            tvOpis.setText(R.string.szlamiec_dlugodzioby_opis);
+        }
+        if(GATUNEK.equals("Szlamnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.szlamnik));
+            tvTytuł.setText(R.string.szlamnik_tytuł);
+            tvOpis.setText(R.string.szlamnik_opis);
+        }
+        if(GATUNEK.equals("Szpak")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.szpak));
+            tvTytuł.setText(R.string.szpak_tytuł);
+            tvOpis.setText(R.string.szpak_opis);
+        }
+        if(GATUNEK.equals("Ścierwnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.scierwnik));
+            tvTytuł.setText(R.string.scierwnik_tytuł);
+            tvOpis.setText(R.string.scierwnik_opis);
+        }
+        if(GATUNEK.equals("Ślepowron")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.slepowron));
+            tvTytuł.setText(R.string.slepowron_tytuł);
+            tvOpis.setText(R.string.slepowron_opis);
+        }
+        if(GATUNEK.equals("Śmieszka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.smieszka));
+            tvTytuł.setText(R.string.smieszka_tytuł);
+            tvOpis.setText(R.string.smieszka_opis);
+        }
+        if(GATUNEK.equals("Śnieguła")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sniegula));
+            tvTytuł.setText(R.string.sniegula_tytuł);
+            tvOpis.setText(R.string.sniegula_opis);
+        }
+        if(GATUNEK.equals("Śnieżka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.sniezka));
+            tvTytuł.setText(R.string.sniezka_tytuł);
+            tvOpis.setText(R.string.sniezka_opis);
+        }
+        if(GATUNEK.equals("Śpiewak")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.spiewak));
+            tvTytuł.setText(R.string.spiewak_tytuł);
+            tvOpis.setText(R.string.spiewak_opis);
+        }
+        if(GATUNEK.equals("ŚwiergotekDrzewny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swiergotek_drzewny));
+            tvTytuł.setText(R.string.swiergotek_drzewny_tytuł);
+            tvOpis.setText(R.string.swiergotek_drzewny_opis);
+        }
+        if(GATUNEK.equals("ŚwiergotekŁąkowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swiergotek_lakowy));
+            tvTytuł.setText(R.string.swiergotek_lakowy_tytuł);
+            tvOpis.setText(R.string.swiergotek_lakowy_opis);
+        }
+        if(GATUNEK.equals("ŚwiergotekNadmorski")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swiergotek_nadmorski));
+            tvTytuł.setText(R.string.swiergotek_nadmorski_tytuł);
+            tvOpis.setText(R.string.swiergotek_nadmorski_opis);
+        }
+        if(GATUNEK.equals("ŚwiergotekPolny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swiergotek_polny));
+            tvTytuł.setText(R.string.swiergotek_polny_tytuł);
+            tvOpis.setText(R.string.swiergotek_polny_opis);
+        }
+        if(GATUNEK.equals("ŚwiergotekRdzawogardły")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swiergotek_rdzawogardly));
+            tvTytuł.setText(R.string.swiergotek_rdzawogardly_tytuł);
+            tvOpis.setText(R.string.swiergotek_rdzawogardly_opis);
+        }
+        if(GATUNEK.equals("ŚwiergotekSzponiasty")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swiergotek_szponiasty));
+            tvTytuł.setText(R.string.swiergotek_szponiasty_tytuł);
+            tvOpis.setText(R.string.swiergotek_szponiasty_opis);
+        }
+        if(GATUNEK.equals("ŚwiergotekTajgowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swiergotek_tajgowy));
+            tvTytuł.setText(R.string.swiergotek_tajgowy_tytuł);
+            tvOpis.setText(R.string.swiergotek_tajgowy_opis);
+        }
+        if(GATUNEK.equals("Świerszczak")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swierszczak));
+            tvTytuł.setText(R.string.swierszczak_tytuł);
+            tvOpis.setText(R.string.swierszczak_opis);
+        }
+        if(GATUNEK.equals("ŚwierszczakMelodyjny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swierszczak_melodyjny));
+            tvTytuł.setText(R.string.swierszczak_melodyjny_tytuł);
+            tvOpis.setText(R.string.swierszczak_melodyjny_opis);
+        }
+        if(GATUNEK.equals("Świstun")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistun));
+            tvTytuł.setText(R.string.swistun_tytuł);
+            tvOpis.setText(R.string.swistun_opis);
+        }
+        if(GATUNEK.equals("ŚwistunAmerykański")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistun_amerykanski));
+            tvTytuł.setText(R.string.swistun_amerykanski_tytuł);
+            tvOpis.setText(R.string.swistun_amerykanski_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaAłtańska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_altanska));
+            tvTytuł.setText(R.string.swistunka_altanska_tytuł);
+            tvOpis.setText(R.string.swistunka_altanska_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaBrunatna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_brunatna));
+            tvTytuł.setText(R.string.swistunka_brunatna_tytuł);
+            tvOpis.setText(R.string.swistunka_brunatna_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaGórska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_gorska));
+            tvTytuł.setText(R.string.swistunka_gorska_tytuł);
+            tvOpis.setText(R.string.swistunka_gorska_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaGrubodzioba")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_grubodzioba));
+            tvTytuł.setText(R.string.swistunka_grubodzioba_tytuł);
+            tvOpis.setText(R.string.swistunka_grubodzioba_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaIberyjska")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_iberyjska));
+            tvTytuł.setText(R.string.swistunka_iberyjska_tytuł);
+            tvOpis.setText(R.string.swistunka_iberyjska_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaLeśna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_lesna));
+            tvTytuł.setText(R.string.swistunka_lesna_tytuł);
+            tvOpis.setText(R.string.swistunka_lesna_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaPółnocna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_polnocna));
+            tvTytuł.setText(R.string.swistunka_polnocna_tytuł);
+            tvOpis.setText(R.string.swistunka_polnocna_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaZłotawa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_zlotawa));
+            tvTytuł.setText(R.string.swistunka_zlotawa_tytuł);
+            tvOpis.setText(R.string.swistunka_zlotawa_opis);
+        }
+        if(GATUNEK.equals("ŚwistunkaŻółtawa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.swistunka_zoltawa));
+            tvTytuł.setText(R.string.swistunka_zoltawa_tytuł);
+            tvOpis.setText(R.string.swistunka_zoltawa_opis);
+        }
+        if(GATUNEK.equals("Tamaryszka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.tamaryszka));
+            tvTytuł.setText(R.string.tamaryszka_tytuł);
+            tvOpis.setText(R.string.tamaryszka_opis);
+        }
+        if(GATUNEK.equals("Terekia")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.terekia));
+            tvTytuł.setText(R.string.terekia_tytuł);
+            tvOpis.setText(R.string.terekia_opis);
+        }
+        if(GATUNEK.equals("Trzciniak")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trzciniak));
+            tvTytuł.setText(R.string.trzciniak_tytuł);
+            tvOpis.setText(R.string.trzciniak_opis);
+        }
+        if(GATUNEK.equals("Trzcinniczek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trzcinniczek));
+            tvTytuł.setText(R.string.trzcinniczek_tytuł);
+            tvOpis.setText(R.string.trzcinniczek_opis);
+        }
+        if(GATUNEK.equals("TrzcinniczekKaspijski")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trzcinniczek_kaspijski));
+            tvTytuł.setText(R.string.trzcinniczek_kaspijski_tytuł);
+            tvOpis.setText(R.string.trzcinniczek_kaspijski_opis);
+        }
+        if(GATUNEK.equals("Trzmielojad")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trzmielojad));
+            tvTytuł.setText(R.string.trzmielojad_tytuł);
+            tvOpis.setText(R.string.trzmielojad_opis);
+        }
+        if(GATUNEK.equals("Trznadel")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trznadel));
+            tvTytuł.setText(R.string.trznadel_tytuł);
+            tvOpis.setText(R.string.trznadel_opis);
+        }
+        if(GATUNEK.equals("TrznadelBiałogłowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trznadel_bialoglowy));
+            tvTytuł.setText(R.string.trznadel_bialoglowy_tytuł);
+            tvOpis.setText(R.string.trznadel_bialoglowy_opis);
+        }
+        if(GATUNEK.equals("TrznadelCzarnogłowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trznadel_czarnoglowy));
+            tvTytuł.setText(R.string.trznadel_czarnoglowy_tytuł);
+            tvOpis.setText(R.string.trznadel_czarnoglowy_opis);
+        }
+        if(GATUNEK.equals("TrznadelCzubaty")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trznadel_czubaty));
+            tvTytuł.setText(R.string.trznadel_czubaty_tytuł);
+            tvOpis.setText(R.string.trznadel_czubaty_opis);
+        }
+        if(GATUNEK.equals("Trznadelek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trznadelek));
+            tvTytuł.setText(R.string.trznadelek_tytuł);
+            tvOpis.setText(R.string.trznadelek_opis);
+        }
+        if(GATUNEK.equals("TrznadelZłotawy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trznadel_zlotawy));
+            tvTytuł.setText(R.string.trznadel_zlotawy_tytuł);
+            tvOpis.setText(R.string.trznadel_zlotawy_opis);
+        }
+        if(GATUNEK.equals("TrznadelZłotobrewy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.trznadel_zlotobrewy));
+            tvTytuł.setText(R.string.trznadel_zlotobrewy_tytuł);
+            tvOpis.setText(R.string.trznadel_zlotobrewy_opis);
+        }
+        if(GATUNEK.equals("Turkan")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.turkan));
+            tvTytuł.setText(R.string.turkan_tytuł);
+            tvOpis.setText(R.string.turkan_opis);
+        }
+        if(GATUNEK.equals("Turkawka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.turkawka));
+            tvTytuł.setText(R.string.turkawka_tytuł);
+            tvOpis.setText(R.string.turkawka_opis);
+        }
+        if(GATUNEK.equals("TurkawkaWschodnia")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.turkawka_wschodnia));
+            tvTytuł.setText(R.string.turkawka_wschodnia_tytuł);
+            tvOpis.setText(R.string.turkawka_wschodnia_opis);
+        }
+        if(GATUNEK.equals("Uhla")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.uhla));
+            tvTytuł.setText(R.string.uhla_tytuł);
+            tvOpis.setText(R.string.uhla_opis);
+        }
+        if(GATUNEK.equals("UhlaGarbonosa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.uhla_garbonosa));
+            tvTytuł.setText(R.string.uhla_garbonosa_tytuł);
+            tvOpis.setText(R.string.uhla_garbonosa_opis);
+        }
+        if(GATUNEK.equals("Uszatka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.uszatka));
+            tvTytuł.setText(R.string.uszatka_tytuł);
+            tvOpis.setText(R.string.uszatka_opis);
+        }
+        if(GATUNEK.equals("UszatkaBłotna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.uszatka_blotna));
+            tvTytuł.setText(R.string.uszatka_blotna_tytuł);
+            tvOpis.setText(R.string.uszatka_blotna_opis);
+        }
+        if(GATUNEK.equals("Warzęcha")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.warzecha));
+            tvTytuł.setText(R.string.warzecha_tytuł);
+            tvOpis.setText(R.string.warzecha_opis);
+        }
+        if(GATUNEK.equals("Wąsatka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wasatka));
+            tvTytuł.setText(R.string.wasatka_tytuł);
+            tvOpis.setText(R.string.wasatka_opis);
+        }
+        if(GATUNEK.equals("Wieszczek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wieszczek));
+            tvTytuł.setText(R.string.wieszczek_tytuł);
+            tvOpis.setText(R.string.wieszczek_opis);
+        }
+        if(GATUNEK.equals("Wilga")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wilga));
+            tvTytuł.setText(R.string.wilga_tytuł);
+            tvOpis.setText(R.string.wilga_opis);
+        }
+        if(GATUNEK.equals("WireonekCzerwonooki")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wireonek_czerwonooki));
+            tvTytuł.setText(R.string.wireonek_czerwonooki_tytuł);
+            tvOpis.setText(R.string.wireonek_czerwonooki_opis);
+        }
+        if(GATUNEK.equals("Włochatka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wlochatka));
+            tvTytuł.setText(R.string.wlochatka_tytuł);
+            tvOpis.setText(R.string.wlochatka_opis);
+        }
+        if(GATUNEK.equals("Wodniczka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wodniczka));
+            tvTytuł.setText(R.string.wodniczka_tytuł);
+            tvOpis.setText(R.string.wodniczka_opis);
+        }
+        if(GATUNEK.equals("Wodnik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wodnik));
+            tvTytuł.setText(R.string.wodnik_tytuł);
+            tvOpis.setText(R.string.wodnik_opis);
+        }
+        if(GATUNEK.equals("Wójcik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wojcik));
+            tvTytuł.setText(R.string.wojcik_tytuł);
+            tvOpis.setText(R.string.wojcik_opis);
+        }
+        if(GATUNEK.equals("Wróbel")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wrobel));
+            tvTytuł.setText(R.string.wrobel_tytuł);
+            tvOpis.setText(R.string.wrobel_opis);
+        }
+        if(GATUNEK.equals("WróbelSkalny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wrobel_skalny));
+            tvTytuł.setText(R.string.wrobel_skalny_tytuł);
+            tvOpis.setText(R.string.wrobel_skalny_opis);
+        }
+        if(GATUNEK.equals("WronaSiwa")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wrona_siwa));
+            tvTytuł.setText(R.string.wrona_siwa_tytuł);
+            tvOpis.setText(R.string.wrona_siwa_opis);
+        }
+        if(GATUNEK.equals("WydrzykDługosterny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wydrzyk_dlugosterny));
+            tvTytuł.setText(R.string.wydrzyk_dlugosterny_tytuł);
+            tvOpis.setText(R.string.wydrzyk_dlugosterny_opis);
+        }
+        if(GATUNEK.equals("WydrzykOstrosterny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wydrzyk_ostrosterny));
+            tvTytuł.setText(R.string.wydrzyk_ostrosterny_tytuł);
+            tvOpis.setText(R.string.wydrzyk_ostrosterny_opis);
+        }
+        if(GATUNEK.equals("WydrzykTęposterny")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wydrzyk_teposterny));
+            tvTytuł.setText(R.string.wydrzyk_teposterny_tytuł);
+            tvOpis.setText(R.string.wydrzyk_teposterny_opis);
+        }
+        if(GATUNEK.equals("WydrzykWielki")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.wydrzyk_wielki));
+            tvTytuł.setText(R.string.wydrzyk_wielki_tytuł);
+            tvOpis.setText(R.string.wydrzyk_wielki_opis);
+        }
+        if(GATUNEK.equals("Zaganiacz")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zaganiacz));
+            tvTytuł.setText(R.string.zaganiacz_tytuł);
+            tvOpis.setText(R.string.zaganiacz_opis);
+        }
+        if(GATUNEK.equals("ZaganiaczMały")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zaganiacz_maly));
+            tvTytuł.setText(R.string.zaganiacz_maly_tytuł);
+            tvOpis.setText(R.string.zaganiacz_maly_opis);
+        }
+        if(GATUNEK.equals("ZaganiaczSzczebiotliwy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zaganiacz_szczebiotliwy));
+            tvTytuł.setText(R.string.zaganiacz_szczebiotliwy_tytuł);
+            tvOpis.setText(R.string.zaganiacz_szczebiotliwy_opis);
+        }
+        if(GATUNEK.equals("Zaroślówka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zaroslowka));
+            tvTytuł.setText(R.string.zaroslowka_tytuł);
+            tvOpis.setText(R.string.zaroslowka_opis);
+        }
+        if(GATUNEK.equals("Zausznik")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zausznik));
+            tvTytuł.setText(R.string.zausznik_tytuł);
+            tvOpis.setText(R.string.zausznik_opis);
+        }
+        if(GATUNEK.equals("Zięba")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zieba));
+            tvTytuł.setText(R.string.zieba_tytuł);
+            tvOpis.setText(R.string.zieba_opis);
+        }
+        if(GATUNEK.equals("Zielonka")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zielonka));
+            tvTytuł.setText(R.string.zielonka_tytuł);
+            tvOpis.setText(R.string.zielonka_opis);
+        }
+        if(GATUNEK.equals("Zimorodek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zimorodek));
+            tvTytuł.setText(R.string.zimorodek_tytuł);
+            tvOpis.setText(R.string.zimorodek_opis);
+        }
+        if(GATUNEK.equals("Zniczek")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zniczek));
+            tvTytuł.setText(R.string.zniczek_tytuł);
+            tvOpis.setText(R.string.zniczek_opis);
+        }
+        if(GATUNEK.equals("Żolna")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zolna));
+            tvTytuł.setText(R.string.zolna_tytuł);
+            tvOpis.setText(R.string.zolna_opis);
+        }
+        if(GATUNEK.equals("Żuraw")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zuraw));
+            tvTytuł.setText(R.string.zuraw_tytuł);
+            tvOpis.setText(R.string.zuraw_opis);
+        }
+        if(GATUNEK.equals("ŻurawStepowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zuraw_stepowy));
+            tvTytuł.setText(R.string.zuraw_stepowy_tytuł);
+            tvOpis.setText(R.string.zuraw_stepowy_opis);
+        }
+        if(GATUNEK.equals("ŻwirowiecŁąkowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zwirowiec_lakowy));
+            tvTytuł.setText(R.string.zwirowiec_lakowy_tytuł);
+            tvOpis.setText(R.string.zwirowiec_lakowy_opis);
+        }
+        if(GATUNEK.equals("ŻwirowiecStepowy")) {
+            imgViewGatunek.setImageDrawable(getResources().getDrawable(R.drawable.zwirowiec_stepowy));
+            tvTytuł.setText(R.string.zwirowiec_stepowy_tytuł);
+            tvOpis.setText(R.string.zwirowiec_stepowy_opis);
+        }
     }
 }
