@@ -202,5 +202,15 @@ public class Log extends Fragment {
             item = new Log_item("Białozór", sharedPreferences.getString(DataZłapania, ""), sharedPreferences.getString(Miejsce, "Brak zapisanej lokalizacji"));
             logList.add(item);
         }
+
+        String temp = "BiegusArktyczny";
+        Gatunek = temp + "Złapany";
+        DataZłapania = temp + "DataZłapania";
+        Miejsce = temp + "MiejsceZłapania";
+        złapany = sharedPreferences.getBoolean(Gatunek, false);
+        if(złapany){
+            item = new Log_item("Biegus Arktyczny", sharedPreferences.getString(DataZłapania, ""), sharedPreferences.getString(Miejsce, "Brak zapisanej lokalizacji"));
+            logList.add(item);
+        }
     }
 }
