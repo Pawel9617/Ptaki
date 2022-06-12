@@ -13,7 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.ptaki.Gatunek;
 import com.example.ptaki.GpsTracker;
 import com.example.ptaki.R;
 
@@ -60,7 +62,8 @@ public class Bernikla_rdzawoszyja extends AppCompatActivity implements  View.OnC
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getImageFromGallery();
+                //getImageFromGallery();
+                Toast.makeText(Bernikla_rdzawoszyja.this, "Funkcja niedostępna", Toast.LENGTH_SHORT).show();
             }
         });
         loadData();
@@ -129,10 +132,10 @@ public class Bernikla_rdzawoszyja extends AppCompatActivity implements  View.OnC
         notatka = sharedPreferences.getString(TEXT2, "");
         Złapany = sharedPreferences.getBoolean(TEXT3, false);
         Uri uri = Uri.parse(sharedPreferences.getString(ZDJĘCIE, ""));
-        if(sharedPreferences.getBoolean(MAZDJĘCIE, false)){
+        /*if(sharedPreferences.getBoolean(MAZDJĘCIE, false)){
             imageView.setImageURI(null);
             imageView.setImageURI(uri);
-        }
+        }*/
     }
 
     public void updateViews() {
